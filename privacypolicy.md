@@ -9,7 +9,6 @@ The term “personal information” as used herein is defined as any information
 - We do not ask for location information through our application.
 - We do not send newsletters by e-mail.
 - The application does not have internet access
-- 
 
 ### Permissions Required
 
