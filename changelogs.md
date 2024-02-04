@@ -1,3 +1,37 @@
+## Version 2312 - Winter 2023 Update
+Released: Dec 3, 2023
+Another service release aimed at improving the stability and performance of the application
+
+**[Version #2312.3] - 1 Feb 2024**
+- Fixed: video-files previews not displayed
+
+**[Version #2312.2] - 15 Jan 2024**
+- Updated CommunityToolkit.WinUI to 8.0.1
+- Bugfixes
+
+**[Version #2312.1] - 4 Dec 2023**
+- Fixed app title in Start Menu
+
+**[Version #2312.0] - 3 Dec 2023**
+- [NEW!] Chinese localization
+- Significantly improved performance when switching folders in the gallery
+- Improved the app launch speed
+- Improved image editor performance
+- Improved performance when working with the Timeline
+- Numerous changes, improvements and optimizations "under the hood"
+- When the application is launched, it now checks access to the library of images and videos
+- The settings window now displays a list of changes to only the current version
+- The changelogs of previous versions are now posted on GitHub (the link is available in the settings window)
+- Integration with the Telegram application channel has been removed
+- The donation page has been deleted
+- For better performance, the carousel has been replaced with a standard collection control in the Timeline
+- When starting a slideshow, the application now checks that there are enough images in the selected folder
+- The settings window has been reduced
+- The page switching animation in the settings window has been changed and accelerated
+- Various interface edits throughout the application
+- WinUI has been updated to version 2.8.6
+- CommunityToolkit has been updated from version 7.1.3 to 8.0.0
+
 ## Version 2311 - November 2023 Update
 
 The release is mainly for fixes and optimizations. The gallery sorting function will be added later in one of the patches to version 2311.
