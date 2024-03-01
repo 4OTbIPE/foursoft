@@ -1,16 +1,89 @@
+## Version 2403 - Long-Term Support Release
+Released: Mar 1, 2024
+Long-term support release for no longer supported device configurations.
+This version will receive bug fixes and security updates until the end of 2025.
+
+The application, starting from version 2404, no longer supports: 
+-Windows 10 versions 1809, 1903, 1909, 2004, 20H2, 21H1
+-x32 processors
+-ARM32 (not ARM64!) processors
+-Xbox
+-Hololens
+
+If you have received this version (2403), then most likely you are on one of these more unsupported device configurations.
+More details on the What's New page (icon with a question on the main page)
+
+**[Version #2403.0] - 1 Mar 2024**
+- Optimized and accelerated timeline loading
+
+## Version 2402 - February 2024 Update
+Released: Feb 5, 2024
+First release in 2024!
+
+**[Version #2402.0] - 5 Feb 2024**
+- [NEW!] The global music player in the app. The music now doesn't stop when you exit the music page
+- [NEW!] Mini-player in the gallery, slideshow page and image viewer page
+- [NEW!] Context menus when clicking on a file in the gallery
+- [NEW!] Context menus when clicking on a folder in the gallery
+- [NEW!] Dragging files from the application to the system
+- [REMOVED] HEVC-videos extension from extensions list in Settings window due to its now unavailable in the Microsoft Store
+- Some minor UI edits throughout the app
+- Minor performance improvements
+- Bugfixes
+
+**[Version #2402.1] - 7 Feb 2024**
+- [NEW!] Ease of use: tap on the background of the pop-up window to close it
+
+**[Version #2402.2] - 11 Feb 2024**
+- Bugfixes
+
+**[Version #2402.3] - 13 Feb 2024**
+- Fixed: app crash
+
+**[Version #2402.4] - 14 Feb 2024**
+- Fixed: Rate app dialog errors
+- Folders list is now updated too when you click the gallery update button
+- Some third-party libs updated
+
+**[Version #2402.5] - 15 Feb 2024**
+- [NEW!] When dragging files, the page blurs
+
+**[Version #2402.6] - 16 Feb 2024**
+- [NEW!] Now you can drag and drop a music file directly from the player page by pulling on the album image of the track
+- Improved perfomance on opening image in picture page
+
+**[Version #2402.7] - 18 Feb 2024**
+- [NEW!] Gallery sorting! Click on Filter-icon button at the bottom of the gallery page
+- [NEW!] Previously temporarily disabled file viewing function on a removable device has been returned
+- Some under-the-hood changes
+
+**[Version #2402.8] - 20 Feb 2024**
+- Fixed: miniplayer click not working sometimes
+- Fixed: the distances between the elements in the gallery
+- Some UI changes
+
+**[Version #2402.9] - 21 Feb 2024**
+- Mini-player UI improvements
+- Fixed: the distances between the elements in the gallery
+
+**[Version #2402.10] - 23 Feb 2024**
+- Mini-player fixes
+- RAM usage optimizations
+
+**[Version #2402.11] - 25 Feb 2024**
+- Some UI edits
+
+**[Version #2402.12] - 27 Feb 2024**
+- [NEW!] Additional sorting options in Gallery page
+
+**[Version #2402.13] - 29 Feb 2024**
+- Fixed: crash of the application when trying to sort files in folders outside the gallery
+- Option to sort videos and music by duration is temporarily disabled due to an error found
+- Some RAM-usage optimizations
+
 ## Version 2312 - Winter 2023 Update
 Released: Dec 3, 2023
 Another service release aimed at improving the stability and performance of the application
-
-**[Version #2312.3] - 1 Feb 2024**
-- Fixed: video-files previews not displayed
-
-**[Version #2312.2] - 15 Jan 2024**
-- Updated CommunityToolkit.WinUI to 8.0.1
-- Bugfixes
-
-**[Version #2312.1] - 4 Dec 2023**
-- Fixed app title in Start Menu
 
 **[Version #2312.0] - 3 Dec 2023**
 - [NEW!] Chinese localization
@@ -31,6 +104,16 @@ Another service release aimed at improving the stability and performance of the 
 - Various interface edits throughout the application
 - WinUI has been updated to version 2.8.6
 - CommunityToolkit has been updated from version 7.1.3 to 8.0.0
+
+**[Version #2312.1] - 4 Dec 2023**
+- Fixed app title in Start Menu
+
+**[Version #2312.2] - 15 Jan 2024**
+- Updated CommunityToolkit.WinUI to 8.0.1
+- Bugfixes
+
+**[Version #2312.3] - 1 Feb 2024**
+- Fixed: video-files previews not displayed
 
 ## Version 2311 - November 2023 Update
 
