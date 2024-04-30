@@ -1,3 +1,17 @@
+## 2404 - Spring 2024 Update
+Released: Mar 1, 2024
+Servicing release
+
+**[Version #2404.1] - 10 Mar 2024**
+- Fixed the appearance of the year 1601 in the Timeline. Clicking on it caused the application to crash
+- Optimized access to files in the gallery
+- Slightly optimized RAM consumption when opening images
+
+**[Version #2404.0] - 1 Mar 2024**
+- Optimized and accelerated timeline loading
+- Windows SDK version updated to 10.0.19041
+- Minimum required Windows build for app installation has been updated to 10.0.19044 (Windows 10 version 21H2)
+
 ## Version 2403 - Long-Term Support Release
 Released: Mar 1, 2024
 Long-term support release for no longer supported device configurations.
