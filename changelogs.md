@@ -1,4 +1,4 @@
-## 2404 - Spring 2024 Update
+## Version 2404 - Spring 2024 Update
 Released: Mar 1, 2024
 Servicing release
 
