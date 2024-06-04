@@ -1,4 +1,4 @@
-## 2405 - 4th Anniversary Update
+## Version 2405 - 4th Anniversary Update
 Released: May 2, 2024
 Big update for the app's 4th anniversary! Thank you for staying with us :)
 
