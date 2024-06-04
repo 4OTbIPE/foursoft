@@ -1,3 +1,34 @@
+## 2405 - 4th Anniversary Update
+Released: May 2, 2024
+Big update for the app's 4th anniversary! Thank you for staying with us :)
+
+**[Version #2405.3] - 10 May 2024**
+- Fixed some app crash
+
+**[Version #2405.2] - 5 May 2024**
+- Fixed a bug with not downloading the following files when opening a file
+
+**[Version #2405.1] - 4 May 2024**
+- Fixed a bug with the presence of a playlist list in the image and video gallery
+
+**[Version #2405.0] - 2 May 2024**
+- [NEW!] Playlists support (Beta). Sort music tracks into playlists.
+- [NEW!] Support playback of playlist files type: .m3u
+- [NEW!] Added the ability to export created playlists
+- [NEW!] New tree view of folders in the gallery
+- [NEW!] Scroll the video forward/backward 30 seconds by double tapping on the left or right side of the screen
+- [NEW!] Hold your mouse pointer/finger on the video to slow it down by 2 times
+- [NEW!] When the video ends, a new window will appear asking you to open the next video
+- [NEW!] Ability to display the current playlist on the music playback page
+- [NEW!] Ability to tap on an item in File Details to copy the value
+- Image detail design now matches window design in video and music.
+- Added animation when clicking on the open settings button
+- Editing animations when transitioning between pages
+- A 4th Anniversary background image has been added to the What's New and Welcome pages
+- Numerous minor UI fixes
+- Updated some third party libraries
+- Bug fixes from the previous release
+
 ## Version 2404 - Spring 2024 Update
 Released: Mar 1, 2024
 Servicing release
