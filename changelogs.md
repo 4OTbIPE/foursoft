@@ -1,3 +1,83 @@
+## Version 2407 - Mid-year Update
+Released: 29 Jul 2024
+Completely redesigned and rewritten gallery page to match Windows 11 style
+
+**[Version #2407.11] - 21 Sep 2024**
+- Updated third-party packages
+- Internal changes
+
+**[Version #2407.10] - 14 Sep 2024**
+- Bugfixes
+
+**[Version #2407.9] - 8 Sep 2024**
+- Security fixes
+- Some UI edits
+- Updated third-party packages
+
+**[Version #2407.8] - 28 Aug 2024**
+- Updated third-party packages
+- Security fixes
+- Bugfix with welcome screen
+
+**[Version #2407.7] - 22 Aug 2024**
+- Updated CommunityToolkit from 8.0.2 to 8.1.0
+- Security fixes
+
+**[Version #2407.6] - 6 Aug 2024**
+- Logic for displaying a message about the availability of an update has been changed
+- Changed animation when deleting an image
+- Reduced size of elements on the home page
+
+**[Version #2407.5] - 3 Aug 2024**
+- Fixed the app crash when adding folders to the gallery
+
+**[Version #2407.4] - 3 Aug 2024**
+- Restored context menu in gallery when right-clicking on music or video element
+
+**[Version #2407.3] - 1 Aug 2024**
+- Fixed video title text color in white theme
+
+**[Version #2407.2] - 30 Jul 2024**
+- UI bugfixes
+- Localization fixes
+
+**[Version #2407.1] - 29 Jul 2024**
+- UI bugfixes
+- Returned support for older versions of Windows 10 (up to and including 1809)
+
+**[Version #2407.0] - 29 Jul 2024**
+- [NEW!] The gallery page has been completely redesigned and rewritten to fit the Windows 11 style
+- [NEW!] Home page, where you can see all your recent media files. The initial implementation, some functions from the old implementation may not be available yet, bugs are possible, but I will try to finalize everything soon
+- [NEW!] Added titlebar
+- [NEW!] Experimental HEIF/HEIC files support (with installed codecs from Microsoft Store)
+- The mini-player for controlling music outside the music page has been moved to the titlebar
+- Redesigned [Whats New] screen
+- Smoother image opening
+- Slightly sped up application opening
+- Bugfixes
+- Updated third-party packages
+- Security fixes
+
+## Version 2406 - Summer 2024 Update
+Released: Jun 5, 2024
+Small servicing release
+
+**[Version #2406.3] - 10 Jul 2024**
+- Security update
+
+**[Version #2406.2] - 29 Jun 2024**
+- Fixed some crashes
+
+**[Version #2406.1] - 14 Jun 2024**
+- Perfomance optimizations on image opening
+
+**[Version #2406.0] - 5 Jun 2024**
+- Bugfixes
+- Updated third-party libraries
+- Security updates
+- Removed anniversary decorations
+- New Welcome/Whats New screen background image
+
 ## Version 2405 - 4th Anniversary Update
 Released: May 2, 2024
 Big update for the app's 4th anniversary! Thank you for staying with us :)
