@@ -1,3 +1,55 @@
+## Version 2411 - November 2024 Update
+Released: 30 Nov 2024
+Small servicing release
+
+**[Version #2411.1] - 8 Dec 2024**
+- Fixed animation when deleting image
+- Fixed some app crashes
+- Fixed localization in context menus
+- Fixed displaying format of music/video duration
+
+**[Version #2411.0] - 30 Nov 2024**
+- Updated Windows SDK to version 10.0.26100
+- Security updates
+- Third-party packages updated
+
+## Version 2410 - Fall 2024 Update
+Released: 20 Oct 2024
+Update with various user experience improvements
+
+**[Version #2410.4] - 3 Nov 2024**
+- Improved image opening and gallery scrolling
+- Application name in the system has been shortened
+
+**[Version #2410.3] - 28 Oct 2024**
+- Fixed: sometimes folders in Manage Folders settings page were not displayed
+
+**[Version #2410.2] - 27 Oct 2024**
+- Updated Win2D package
+
+**[Version #2410.1] - 22 Oct 2024**
+- Bugfixes
+
+**[Version #2410.0] - 20 Oct 2024**
+- [NEW!] Redesigned video player page
+- [NEW!] Redesigned playlist display in Gallery page
+- [NEW!] Set your image for Home page background
+- [NEW!] Personalization page in Settings
+- [NEW!] You can change default page when app starts in Settings
+- [NEW!] You can set track album image as music player background in Settings
+- [NEW!] Added display of the full path to the file on the Picture page
+- [NEW!] Added display of video resolution in file details
+- [NEW!] Added display of video resolution in file details
+- [NEW!] Music files in Explorer now have a new note icon
+- The app now saves the state of the sidebar on the gallery page
+- Track title in mini-player in title bar now in Marquee Text
+- New music icon
+- New animations in Music page
+- New animations in Picture page
+- Various UI changes
+- Updated third-party packages
+- Security changes
+
 ## Version 2407 - Mid-year Update
 Released: 29 Jul 2024
 Completely redesigned and rewritten gallery page to match Windows 11 style
