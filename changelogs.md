@@ -1,3 +1,45 @@
+## Version 2501
+Released: 20 Jan 2025
+First release in the new year! Minor additions to current features, UI fixes.
+
+**[Version #2501.1] - 7 Feb 2025**
+- Security updates
+- Third-party packages updated
+
+**[Version #2501.0] - 20 Jan 2025**
+- [NEW!] Before starting a slideshow, you can now specify whether to stretch the image to full screen or not
+- [NEW!] In Settings -> Personalization you can specify the default file sorting type in the gallery
+- [NEW!] In Settings -> Personalization you can specify video rewind duration
+- Animations edits
+- Third-party packages updated
+- Redesigned Settings screen
+- Redesigned videos cards in Gallery
+- Redesigned Whats New screen
+- Redesigned File Info screen
+- Removed support for older versions of Windows up to 2004 (build 19041), this time for good :)
+
+## Version 2412 - New 2025 Year Update
+Released: 28 Dec 2024
+Last release of the year! 
+Thank you for using my app!
+Happy New Year 2025!
+
+**[Version #2412.2] - 17 Jan 2025**
+- Updated third-party packages
+
+**[Version #2412.1] - 5 Jan 2025**
+- Fixed: image was not set as desktop wallpaper
+
+**[Version #2412.0] - 28 Dec 2024**
+- [NEW!] Added context menus in Home page
+- [NEW!] In Settings->Personalization you can now set not stretching image in full screen
+- [NEW!] You can now set image as wallpaper and lock screen image at one click
+- Refactored fast-back forward in video player
+- Changed background image
+- Some UI changes
+- Updated third-party packages
+- Bugfixes
+
 ## Version 2411 - November 2024 Update
 Released: 30 Nov 2024
 Small servicing release
