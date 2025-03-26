@@ -1,20 +1,65 @@
-## **FlyGallery! Windows App - Privacy Policy**
+# **FlyGallery! App - Privacy Policy**
 
-The term “personal information” as used herein is defined as any information that identifies or can be used to identify, communicate or search for the person to whom such information relates. The personal information we collect will be the subject of this privacy policy, as amended from time to time.
+**App Name**: FlyGallery! App
+**Version**: starting with version 2503.0.0
+**Effective Date**: [1 Mar 2025]
 
-- We do not ask for your email address, phone number or any information about you.
-- We do not sell content.
-- We do not require registration.
-- The security of your personal information will not be compromised.
-- We do not ask for location information through our application.
-- We do not send newsletters by e-mail.
-- The application does not have internet access
+## **1. What Data Does the App Collect?**
 
-### Permissions Required
+The app  **does not collect, store, or transmit**  any personal user data.
 
-- Pictures Library
-- Videos Library
-- Music Library
-- Removable Devices
+It requests access to the following system features:
 
-**Contacts e-mail:  [four.soft@outlook.com](mailto:four.soft@outlook.com)**
+-   **Pictures Library**  – to view and manage photos.
+    
+-   **Music Library**  – to play audio files.
+    
+-   **Videos Library**  – to play video files.
+    
+-   **Removable Storage**  (USB, SD cards) – to access files on external drives.
+    
+
+**The app has no internet access**, so no data is sent to any servers.
+
+## **2. How Is This Data Used?**
+
+The app uses file access  **only locally**  for:
+
+-   Displaying media files (photos, music, videos).
+    
+-   Playing audio and video content.
+    
+-   Copying, moving, or deleting files.
+    
+
+**No data is stored outside the user’s device.**
+
+## **3. Is Data Shared with Third Parties?**
+
+**No.**  The app does not send data online or share it with other apps/services.
+
+## **4. What Permissions Are Required?**
+
+The app requests standard UWP capabilities:
+
+-   **Pictures Library**  (`picturesLibrary`).
+    
+-   **Music Library**  (`musicLibrary`).
+    
+-   **Videos Library**  (`videosLibrary`).
+    
+-   **Removable Storage**  (`removableStorage`).
+    
+
+These permissions  **are unrelated to internet access or personal data collection.**
+
+## **5. Changes to This Privacy Policy**
+
+If this policy is updated, the new version will be published on the Microsoft Store.
+
+## **6. Contact Information**
+
+For questions, contact us at:
+
+-   **Email**: foursoftapps@outlook.com
+    
