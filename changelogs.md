@@ -1,3 +1,17 @@
+## Version 2503
+Released: 1 Mar 2025
+Since the main efforts are now focused on a complete rewrite of the application for the 5th anniversary, this release turned out to be small.
+
+**[Version #2503.1] - 22 Mar 2025**
+- Security update
+
+**[Version #2503.0] - 1 Mar 2025**
+- [NEW!] New context menus in Music Page, when right-clicking album cover
+- Added display of file path in video page title
+- Updated third-party packages
+- Security updates
+- Bugfixes
+
 ## Version 2501
 Released: 20 Jan 2025
 First release in the new year! Minor additions to current features, UI fixes.
