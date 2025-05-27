@@ -6,7 +6,7 @@ Public repository
 
 ## Download
 <a href="https://apps.microsoft.com/detail/9nzqkmgwq74c?referrer=appbadge&amp;mode=direct"> <img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="" width="200" /> </a>
-or [download package manually](https://github.com/4OTbIPE/foursoft/releases)
+or [download package manually](https://github.com/4OTbIPE/foursoft/releases/latest)
 
 
 ## About app
