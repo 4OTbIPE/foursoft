@@ -3,12 +3,10 @@ Released: May 23, 2025
 5th Anniversary - The New Beginning
 
 **[v.2505.4.0] - May 30, 2025** 
-----------------------------------------------------------------
 - ✅ [FIXED] Sometimes it was not possible to enter full screen mode
 - ✅ [FIXED] When playing a video the screen did not stay on
 
 **[v.2505.3.0] - May 27, 2025**
-----------------------------------------------------------------
 - ✅ [FIXED] The localization of the application has been reworked. If you find an incorrect or not the best translation in your language, please write to me by email: foursoftapps@outlook.com
 - ✅ [FIXED] Fixed missing localization in slideshow start dialog
 - ✅ [FIXED] Fixed missing localization in Timeline page
@@ -16,15 +14,12 @@ Released: May 23, 2025
 - ⚙️ Improved appearance of slide show start dialog
 
 **[v.2505.2.0] - May 25, 2025**
-----------------------------------------------------------------
 - ✅ [FIXED] Some localization errors
 
 **[v.2505.1.0] - May 24, 2025**
-----------------------------------------------------------------
 - 🔃 [RESTORED] Functionality to run multiple copies of the application has been restored
 
 **[v.2505.0.0] - May 23, 2025**
-----------------------------------------------------------------
 - 🎉 [NEW!] The application has been completely rewritten from scratch on a new architecture
 - 🎉 [NEW!] Migration to the latest .NET 9 platform from the old .NET Native
 - 🎉 [NEW!] Support for .DDS files
