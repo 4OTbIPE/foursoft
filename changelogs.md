@@ -1,3 +1,61 @@
+## Version 2505
+Released: May 23, 2025
+5th Anniversary - The New Beginning
+
+**[v.2505.4.0] - May 30, 2025** 
+----------------------------------------------------------------
+- ✅ [FIXED] Sometimes it was not possible to enter full screen mode
+- ✅ [FIXED] When playing a video the screen did not stay on
+
+**[v.2505.3.0] - May 27, 2025**
+----------------------------------------------------------------
+- ✅ [FIXED] The localization of the application has been reworked. If you find an incorrect or not the best translation in your language, please write to me by email: foursoftapps@outlook.com
+- ✅ [FIXED] Fixed missing localization in slideshow start dialog
+- ✅ [FIXED] Fixed missing localization in Timeline page
+- ⚙️ Changed welcome messages on the home page
+- ⚙️ Improved appearance of slide show start dialog
+
+**[v.2505.2.0] - May 25, 2025**
+----------------------------------------------------------------
+- ✅ [FIXED] Some localization errors
+
+**[v.2505.1.0] - May 24, 2025**
+----------------------------------------------------------------
+- 🔃 [RESTORED] Functionality to run multiple copies of the application has been restored
+
+**[v.2505.0.0] - May 23, 2025**
+----------------------------------------------------------------
+- 🎉 [NEW!] The application has been completely rewritten from scratch on a new architecture
+- 🎉 [NEW!] Migration to the latest .NET 9 platform from the old .NET Native
+- 🎉 [NEW!] Support for .DDS files
+- 🎉 [NEW!] Search function among gallery files
+- 🎉 [NEW!] New application design
+- 🎉 [NEW!] Image zooming with mouse wheel
+- 🎉 [NEW!] New audio player on AudioGraph UWP API
+- 🎉 [NEW!] New welcome screen with initial setup
+- 🎉 [NEW!] New What's New screen
+- 🎉 [NEW!] Updated image editor (cropping and color correction are now combined on one page)
+- ⚙️ Updated and optimized image iteration mechanism, if the image was opened via file activation
+- ⚙️ Image opening mechanism updated and optimized
+- ⚙️ Third-party packages updated
+- ⚠️ [WARNING] Due to the fact that the application was rewritten from scratch, the following functions are temporarily unavailable, as they have not yet been transferred from the old version:
+	* Creating an archive from a folder by right-clicking on a folder on the gallery page
+	* Setting your own image on the home page
+	* Setting up image stretching to full screen
+	* Setting up video fast forwarding duration
+	* Setting up the background of the music player
+	* Sorting the gallery by file type
+	* Sorting the gallery by time period
+	* Moving selected files in the gallery
+	* Creating a backup copy of application data
+	* Drag-and-Drop files from the application to the explorer
+	* Context menu on the image viewing page
+	* Printing an image
+	* Scrolling through images with swipes
+	* Exiting to the gallery page by swiping the image down
+	* Deleting an image by swiping the image up
+	* Animation when deleting an image
+
 ## Version 2503
 Released: 1 Mar 2025
 Since the main efforts are now focused on a complete rewrite of the application for the 5th anniversary, this release turned out to be small.
