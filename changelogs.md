@@ -1,4 +1,4 @@
-##﻿Version 2506
+## ﻿Version 2506
 Released: June 2, 2025
 
 **[v.2506.3.0] - June 16, 2025**
