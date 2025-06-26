@@ -1,3 +1,39 @@
+##﻿Version 2506
+Released: June 2, 2025
+
+**[v.2506.3.0] - June 16, 2025**
+----------------------------------------------------------------
+- 🔄 [RESTORED] Ability to print image restored
+- Updated .NET Runtime to 9.0.6
+
+**[v.2506.2.0] - June 6, 2025**
+----------------------------------------------------------------
+- ✅ [FIXED] Fixed display of library folders in Settings
+
+**[v.2506.1.0] - June 5, 2025**
+----------------------------------------------------------------
+- ✅ [FIXED] Track cover (if any) was not displayed for new files
+
+**[v.2506.0.0] - June 2, 2025**
+----------------------------------------------------------------
+- 🔥 [NEW!] Ability to edit the subtitle style has been added to the video page
+- 🔥 [NEW!] Added the ability to switch to (and exit from) full-screen mode by pressing the F11 key (like in web browsers) in Image and Video pages
+- 🔄 [RESTORED] Ability to rewind a video by double-clicking on the left and right edges of the window has been restored
+- 🔄 [RESTORED] Returned the ability to switch to full-screen mode by double-clicking on the video page
+- 🎨 [UI] Changed the style of pop-up dialog boxes
+- 🎨 [UI] Design refinements
+- 🎨 [UI] Added icons to many context menus
+- 🎨 [UI] The track title in the mini-player is now displayed as a running line
+- ⚠ [WARN] In some folders, the system limits the ability to sort files; now, in such folders, the ability to sort is blocked
+- ✅ [FIXED] Fixed application crash when opening folders with inability to sort files
+- ✅ [FIXED] Sometimes the file properties displayed an empty string for the file creation date
+- ✅ [FIXED] Fixed screen fading due to timeout when playing video
+- Changed image thumbnail placeholder when thumbnail cannot be loaded from the system
+- Optimized loading of thumbnails of images of formats .HEIF and .HEIC (with installed codecs)
+- Various minor fixes and improvements
+- Updated third-party packages
+- Updated home-page background image (from Unsplash by Elijah Pilchard)
+
 ## Version 2505
 Released: May 23, 2025
 5th Anniversary - The New Beginning
