@@ -2,7 +2,6 @@
 Released: June 2, 2025
 
 **[v.2506.3.0] - June 16, 2025**
-----------------------------------------------------------------
 - 🔄 [RESTORED] Ability to print image restored
 - Updated .NET Runtime to 9.0.6
 
