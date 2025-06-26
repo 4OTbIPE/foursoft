@@ -7,15 +7,12 @@ Released: June 2, 2025
 - Updated .NET Runtime to 9.0.6
 
 **[v.2506.2.0] - June 6, 2025**
-----------------------------------------------------------------
 - ✅ [FIXED] Fixed display of library folders in Settings
 
 **[v.2506.1.0] - June 5, 2025**
-----------------------------------------------------------------
 - ✅ [FIXED] Track cover (if any) was not displayed for new files
 
 **[v.2506.0.0] - June 2, 2025**
-----------------------------------------------------------------
 - 🔥 [NEW!] Ability to edit the subtitle style has been added to the video page
 - 🔥 [NEW!] Added the ability to switch to (and exit from) full-screen mode by pressing the F11 key (like in web browsers) in Image and Video pages
 - 🔄 [RESTORED] Ability to rewind a video by double-clicking on the left and right edges of the window has been restored
