@@ -1,327 +1,829 @@
-## ﻿Version 2506
+## Version 2511
+
+Released: October 26, 2025
+
+
+
+**\[v.2511.1.0] - November 15, 2025**
+
+----------------------------------------------------------------
+
+\- ⚙️ Updated .NET Runtime to 9.0.11
+
+\- ⚙️ Updated third-party packages
+
+
+
+**\[v.2511.0.0] - October 26, 2025**
+
+----------------------------------------------------------------
+
+\- 🔥 \[NEW!] You can now view all the artists in your music collection in the gallery
+
+\- 🔥 \[NEW!] You can now view all album tracks in your music collection in the gallery
+
+\- 🔥 \[NEW!] Clicking on the artist's name in the music player now opens a window with all of the artist's tracks
+
+\- 🔥 \[NEW!] Clicking on the album title of a track in the music player now opens a window with all the tracks on that album
+
+\- 🔥 \[NEW!] New image cropping UI
+
+\- 🔥 \[NEW!] Updated image editor
+
+\- 🔥 \[NEW!] On the Image Editor's Filters page, each filter now displays an open image instead of a static image
+
+\- 🔥 \[NEW!] Editing track artists in the metadata editor has been improved. Suggestions from your collection are now displayed
+
+\- 🔥 \[NEW!] Added background animation to the music player while a track is playing (can be disabled in Settings)
+
+\- 🔥 \[NEW!] Option to disable album art as music player background in Settings
+
+\- 🔥 \[NEW!] An option to disable the display of removable devices in the gallery has been added to Settings->Personalization
+
+\- 🔥 \[NEW!] Removable devices in the gallery are now displayed individually, rather than as a single item
+
+\- 🔥 \[NEW!] Added caching of gallery elements, which should significantly reduce RAM consumption several times and greatly speed up
+
+\- ⚙️ The arrangement of tabs on the gallery page has been changed
+
+\- ⚙️ Switching between tabs in the gallery has been sped up
+
+\- ⚙️ The ability to view the current playlist in the music player has been restored
+
+\- ⚙️ RAM consumption on the gallery page has been significantly reduced (in my case, from ~190 MB to ~90 MB)
+
+\- ⚙️ Loading audio tracks in the gallery has been slightly sped up
+
+\- ⚙️ Tabs on the main page have been reordered
+
+\- ⚙️ The audio player has been completely rewritten on a new architecture
+
+\- ⚙️ Reworked internal music launching system
+
+\- ⚙️ Some code cleanup
+
+\- ⚙️ Optimized image loading in the image editor
+
+\- ⚙️ New main page background image
+
+\- ⚙️ Updated third-party packages
+
+## 
+
+## Version 2508
+
+Released: August 16, 2025
+
+
+
+**\[v.2508.5.0] - October 15, 2025**
+
+----------------------------------------------------------------
+
+\- ⚙️ Updated .NET Runtime to 9.0.10
+
+\- ⚙️ Updated third-party packages
+
+
+
+**\[v.2508.4.3] - October 12, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] Fixed not working file search
+
+
+
+**\[v.2508.4.2] - October 11, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] The display of multiple artists for a track has been fixed. They are now separated by a comma and space
+
+\- ✅ \[FIXED] Fixed the occasional display of 0 in the track's year of release
+
+
+
+**\[v.2508.4.1] - October 10, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] Fixed a bug where the audio file would not play
+
+\- ⚠️ \[DISABLED] The track switching feature in the current playlist's drop-down list has been temporarily disabled. It will be re-enabled in the next few updates, once a critical bug is fixed
+
+
+
+**\[v.2508.4.0] - October 9, 2025**
+
+----------------------------------------------------------------
+
+\- 🔥 \[NEW!] Added a context menu to the image viewing page
+
+\- 🔥 \[NEW!] Added shortcuts to the video playback page (FFmpeg version only): up/down arrows for volume control, numbers 0-9 for video progress control (0-100%), Home/End for skipping to the beginning/end of the video. The M button mutes/unmutes the video, and the F button controls fullscreen mode.
+
+\- ✅ \[FIXED] Fixed a bug where the album release year was displayed as 0
+
+\- ⚙️ Updated third-party packages
+
+
+
+**\[v.2508.3.0] - September 28, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] Name of the artist of the current track is now also displayed in the mini player
+
+\- ✅ \[FIXED] If the dialog screen is open and you switch to another page, the dialog screen now closes correctly
+
+\- ⚙️ Updated third-party packages
+
+
+
+**\[v.2508.2.2] - September 22, 2025**
+
+----------------------------------------------------------------
+
+\- 🎨 Minor UI changes to the music page
+
+\- ⚙️ Updated third-party packages
+
+
+
+**\[v.2508.2.1] - September 14, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ Fixed some issues with subtitles in video playback
+
+\- ⚙️ Updated third-party packages
+
+\- ⚙️ Added some animation in Settings->Libraries page
+
+
+
+**\[v.2508.2.0] - September 9, 2025**
+
+----------------------------------------------------------------
+
+\- ⚙️ Updated .NET Runtime to 9.0.9
+
+
+
+**\[v.2508.1.3] - September 6, 2025**
+
+----------------------------------------------------------------
+
+\- 🔥 \[NEW!] Link to download the Beta version of the application has been added to the Settings page, where early access to new features and improvements is available!
+
+\- ⚙️ Added some animation in Settings page
+
+\- ⚙️ Some UI tweaks in Music page
+
+
+
+**\[v.2508.1.2] - September 1, 2025**
+
+----------------------------------------------------------------
+
+\- 🔥 \[NEW!] The music playback page now displays the year of the album's release
+
+\- ✅ \[FIXED] Memory leaks when opening a video file
+
+\- ✅ \[FIXED] HDR video was displayed in SDR format when using ffmpeg video player
+
+\- ⚙️ Increased transparency on the music playback page in the white theme
+
+\- ⚙️ Minor UI fixes on the music playback page
+
+\- ⚙️ Third-party libraries updated
+
+
+
+**\[v.2508.1.1] - August 28, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] The video title in the video player may have been empty
+
+\- ✅ \[FIXED] When saving a copy of a file in an image editor, Success message was displayed in any case
+
+\- ⚙️ Third-party libraries updated
+
+
+
+**\[v.2508.1.0] - August 26, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] An error occurred while saving a cropped image.
+
+\- ✅ \[FIXED] Some crashes in Gallery page
+
+\- ⚙️ Updated CsWinRT to 2.3.0-preview
+
+\- ⚙️ Removed acrylic in title bar
+
+\- ⚙️ Improved stability when loading files in the gallery
+
+
+
+**\[v.2508.0.0] - August 16, 2025**
+
+----------------------------------------------------------------
+
+\- 🔥 \[NEW!] Video player engine based on FFmpeg (beta)! Open video files of almost all formats without using separate codecs! Still in beta stage. If various errors occur - in \[Settings->Personalization] you can return to using the standard Windows video player.
+
+\- 🔥 \[NEW!] New file loading mechanism in the gallery! Now files should load several times faster.
+
+\- 🔥 \[NEW!] Ability to view the current playlist on the music playback page.
+
+\- 🔥 \[NEW!] In \[Settings->Personalization] added the ability to disable downloading of file covers in the gallery for videos and music. To speed up work on weak devices.
+
+\- ✅ \[FIXED] An error occurred while saving a cropped image.
+
+\- ✅ \[FIXED] Displaying a false error message when opening an image.
+
+\- 🎨 Added acrylic background to title bar on non-gallery pages.
+
+\- 🎨 Updated home-page background image.
+
+\- ⚙️ Video file covers are now loaded only if they are cached in the system, to speed up their loading.
+
+\- ⚙️ The dialog with the offer to update the application no longer appears on its own, instead a button appears on the gallery page.
+
+\- ⚙️ Loading of audio file properties is now based on the z440.atl.core library.
+
+\- ⚙️ Loading of video file properties is now based on the FFmpegInteropX library.
+
+\- ⚙️ Third-party libraries updated
+
+## 
+
+## Version 2507
+
+Released: June 26, 2025
+
+
+
+**\[v.2507.12.0] - August 8, 2025**
+
+----------------------------------------------------------------
+
+\- ⚙️ Updated .NET Runtime to 9.0.8
+
+
+
+**\[v.2507.11.0] - July 29, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] Fixed rare application crashes when loading folders in the gallery
+
+
+
+**\[v.2507.10.0] - July 19, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] Fixed error localization when image cannot be opened
+
+
+
+**\[v.2507.9.0] - July 10, 2025**
+
+----------------------------------------------------------------
+
+\- ⚙️ Updated .NET Runtime to 9.0.7
+
+\- ⚙️ Updated third-party packages
+
+
+
+**\[v.2507.8.0] - July 4, 2025**
+
+----------------------------------------------------------------
+
+\- ⚠️ Changed email address for contacting the developer
+
+\- ⚙️ Added localization of tooltips in the video player
+
+
+
+**\[v.2507.7.0] - July 2, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] Sometimes the audio track duration was displayed as 00:00 in the gallery
+
+\- ✅ \[FIXED] Timeline could display a year in which there were no images
+
+
+
+**\[v.2507.6.0] - June 30, 2025**
+
+----------------------------------------------------------------
+
+\- 🔥 \[NEW!] Support for .mov video files
+
+\- ✅ \[FIXED] Fixed some bugs in video playback
+
+
+
+**\[v.2507.5.0] - June 29, 2025**
+
+----------------------------------------------------------------
+
+\- 🔥 \[NEW!] Click on the video player area to play/pause the video
+
+\- ✅ \[FIXED] Fixed when enabling sounds in UI would mess up the default gallery page loading type
+
+\- ✅ \[FIXED] Fixed some bugs in video playback
+
+\- ✅ \[FIXED] Fixed the occurrence of false errors when opening videos
+
+\- ⚙️ Changed the way videos are loaded into the video player. Should significantly reduce RAM consumption.
+
+
+
+**\[v.2507.4.0] - June 28, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] When changing the Windows theme, the color of the Minimize/Maximize/Close buttons did not change
+
+\- ✅ \[FIXED] Now when opening an unsupported or corrupted image file, an error dialog does not appear
+
+\- ✅ \[FIXED] Fixed flickering of default image thumbnail when file does not have real thumbnail
+
+\- ⚙️ The error system has been reworked. It is more clearly defined when an error can be simply closed, and when an application restart is required
+
+
+
+**\[v.2507.3.0] - June 27, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] Сopied file could not be pasted after closing the application
+
+\- ✅ \[FIXED] No search was performed among videos
+
+
+
+**\[v.2507.2.0] - June 27, 2025**
+
+----------------------------------------------------------------
+
+\- ✅ \[FIXED] Fixed application crash when trying to save audio track cover
+
+
+
+**\[v.2507.1.0] - June 27, 2025**
+
+----------------------------------------------------------------
+
+\- Some app loading fix
+
+
+
+**\[v.2507.0.0] - June 26, 2025**
+
+----------------------------------------------------------------
+
+\- 🔥 \[NEW!] New videoplayer design
+
+\- 🔥 \[NEW!] Added the ability to edit audio file metadata. In the gallery and on the audio player page
+
+\- 🔥 \[NEW!] Added the ability to change the track cover
+
+\- 🔥 \[NEW!] Added the ability to save track cover to file
+
+\- 🔥 \[NEW!] Added the ability to enable sound on UI actions (in Settings)
+
+\- 🔃 \[RESTORED] Ability show/hide menu panel in Image viewer page (on tap on image)
+
+\- 🔃 \[RESTORED] Ability to set custom header image in Home page
+
+\- 🔃 \[RESTORED] Restored the ability to drag files from a collection to Explorer or other applications
+
+\- 🔃 \[RESTORED] Restored the ability to specify in the settings whether to stretch the image to the entire window on the image viewing page
+
+\- 🔃 \[RESTORED] The ability to specify the length of fast forwarding of a video in the settings has been restored
+
+\- Some changes in Home page UI
+
+\- Some changes in dialogs UI
+
+\- Getting audio track covers has been changed from native to atl.core library. This way covers are obtained more correctly
+
+\- Optimized loading of elements in collections
+
+\- Updated main background image
+
+\- Updated third-party packages
+
+\- Added dependency on z440.atl.core library﻿
+
+## 
+
+## Version 2506
+
 Released: June 2, 2025
 
-**[v.2506.3.0] - June 16, 2025**
-- 🔄 [RESTORED] Ability to print image restored
-- Updated .NET Runtime to 9.0.6
 
-**[v.2506.2.0] - June 6, 2025**
-- ✅ [FIXED] Fixed display of library folders in Settings
 
-**[v.2506.1.0] - June 5, 2025**
-- ✅ [FIXED] Track cover (if any) was not displayed for new files
+**\[v.2506.3.0] - June 16, 2025**
 
-**[v.2506.0.0] - June 2, 2025**
-- 🔥 [NEW!] Ability to edit the subtitle style has been added to the video page
-- 🔥 [NEW!] Added the ability to switch to (and exit from) full-screen mode by pressing the F11 key (like in web browsers) in Image and Video pages
-- 🔄 [RESTORED] Ability to rewind a video by double-clicking on the left and right edges of the window has been restored
-- 🔄 [RESTORED] Returned the ability to switch to full-screen mode by double-clicking on the video page
-- 🎨 [UI] Changed the style of pop-up dialog boxes
-- 🎨 [UI] Design refinements
-- 🎨 [UI] Added icons to many context menus
-- 🎨 [UI] The track title in the mini-player is now displayed as a running line
-- ⚠ [WARN] In some folders, the system limits the ability to sort files; now, in such folders, the ability to sort is blocked
-- ✅ [FIXED] Fixed application crash when opening folders with inability to sort files
-- ✅ [FIXED] Sometimes the file properties displayed an empty string for the file creation date
-- ✅ [FIXED] Fixed screen fading due to timeout when playing video
-- Changed image thumbnail placeholder when thumbnail cannot be loaded from the system
-- Optimized loading of thumbnails of images of formats .HEIF and .HEIC (with installed codecs)
-- Various minor fixes and improvements
-- Updated third-party packages
-- Updated home-page background image (from Unsplash by Elijah Pilchard)
+* 🔄 \[RESTORED] Ability to print image restored
+* Updated .NET Runtime to 9.0.6
+
+**\[v.2506.2.0] - June 6, 2025**
+
+* ✅ \[FIXED] Fixed display of library folders in Settings
+
+**\[v.2506.1.0] - June 5, 2025**
+
+* ✅ \[FIXED] Track cover (if any) was not displayed for new files
+
+**\[v.2506.0.0] - June 2, 2025**
+
+* 🔥 \[NEW!] Ability to edit the subtitle style has been added to the video page
+* 🔥 \[NEW!] Added the ability to switch to (and exit from) full-screen mode by pressing the F11 key (like in web browsers) in Image and Video pages
+* 🔄 \[RESTORED] Ability to rewind a video by double-clicking on the left and right edges of the window has been restored
+* 🔄 \[RESTORED] Returned the ability to switch to full-screen mode by double-clicking on the video page
+* 🎨 \[UI] Changed the style of pop-up dialog boxes
+* 🎨 \[UI] Design refinements
+* 🎨 \[UI] Added icons to many context menus
+* 🎨 \[UI] The track title in the mini-player is now displayed as a running line
+* ⚠ \[WARN] In some folders, the system limits the ability to sort files; now, in such folders, the ability to sort is blocked
+* ✅ \[FIXED] Fixed application crash when opening folders with inability to sort files
+* ✅ \[FIXED] Sometimes the file properties displayed an empty string for the file creation date
+* ✅ \[FIXED] Fixed screen fading due to timeout when playing video
+* Changed image thumbnail placeholder when thumbnail cannot be loaded from the system
+* Optimized loading of thumbnails of images of formats .HEIF and .HEIC (with installed codecs)
+* Various minor fixes and improvements
+* Updated third-party packages
+* Updated home-page background image (from Unsplash by Elijah Pilchard)
 
 ## Version 2505
+
 Released: May 23, 2025
 5th Anniversary - The New Beginning
 
-**[v.2505.4.0] - May 30, 2025** 
-- ✅ [FIXED] Sometimes it was not possible to enter full screen mode
-- ✅ [FIXED] When playing a video the screen did not stay on
 
-**[v.2505.3.0] - May 27, 2025**
-- ✅ [FIXED] The localization of the application has been reworked. If you find an incorrect or not the best translation in your language, please write to me by email: foursoftapps@outlook.com
-- ✅ [FIXED] Fixed missing localization in slideshow start dialog
-- ✅ [FIXED] Fixed missing localization in Timeline page
-- ⚙️ Changed welcome messages on the home page
-- ⚙️ Improved appearance of slide show start dialog
 
-**[v.2505.2.0] - May 25, 2025**
-- ✅ [FIXED] Some localization errors
+**\[v.2505.4.0] - May 30, 2025**
 
-**[v.2505.1.0] - May 24, 2025**
-- 🔃 [RESTORED] Functionality to run multiple copies of the application has been restored
+* ✅ \[FIXED] Sometimes it was not possible to enter full screen mode
+* ✅ \[FIXED] When playing a video the screen did not stay on
 
-**[v.2505.0.0] - May 23, 2025**
-- 🎉 [NEW!] The application has been completely rewritten from scratch on a new architecture
-- 🎉 [NEW!] Migration to the latest .NET 9 platform from the old .NET Native
-- 🎉 [NEW!] Support for .DDS files
-- 🎉 [NEW!] Search function among gallery files
-- 🎉 [NEW!] New application design
-- 🎉 [NEW!] Image zooming with mouse wheel
-- 🎉 [NEW!] New audio player on AudioGraph UWP API
-- 🎉 [NEW!] New welcome screen with initial setup
-- 🎉 [NEW!] New What's New screen
-- 🎉 [NEW!] Updated image editor (cropping and color correction are now combined on one page)
-- ⚙️ Updated and optimized image iteration mechanism, if the image was opened via file activation
-- ⚙️ Image opening mechanism updated and optimized
-- ⚙️ Third-party packages updated
-- ⚠️ [WARNING] Due to the fact that the application was rewritten from scratch, the following functions are temporarily unavailable, as they have not yet been transferred from the old version:
-	* Creating an archive from a folder by right-clicking on a folder on the gallery page
-	* Setting your own image on the home page
-	* Setting up image stretching to full screen
-	* Setting up video fast forwarding duration
-	* Setting up the background of the music player
-	* Sorting the gallery by file type
-	* Sorting the gallery by time period
-	* Moving selected files in the gallery
-	* Creating a backup copy of application data
-	* Drag-and-Drop files from the application to the explorer
-	* Context menu on the image viewing page
-	* Printing an image
-	* Scrolling through images with swipes
-	* Exiting to the gallery page by swiping the image down
-	* Deleting an image by swiping the image up
-	* Animation when deleting an image
+**\[v.2505.3.0] - May 27, 2025**
+
+* ✅ \[FIXED] The localization of the application has been reworked. If you find an incorrect or not the best translation in your language, please write to me by email: foursoftapps@outlook.com
+* ✅ \[FIXED] Fixed missing localization in slideshow start dialog
+* ✅ \[FIXED] Fixed missing localization in Timeline page
+* ⚙️ Changed welcome messages on the home page
+* ⚙️ Improved appearance of slide show start dialog
+
+**\[v.2505.2.0] - May 25, 2025**
+
+* ✅ \[FIXED] Some localization errors
+
+**\[v.2505.1.0] - May 24, 2025**
+
+* 🔃 \[RESTORED] Functionality to run multiple copies of the application has been restored
+
+**\[v.2505.0.0] - May 23, 2025**
+
+* 🎉 \[NEW!] The application has been completely rewritten from scratch on a new architecture
+* 🎉 \[NEW!] Migration to the latest .NET 9 platform from the old .NET Native
+* 🎉 \[NEW!] Support for .DDS files
+* 🎉 \[NEW!] Search function among gallery files
+* 🎉 \[NEW!] New application design
+* 🎉 \[NEW!] Image zooming with mouse wheel
+* 🎉 \[NEW!] New audio player on AudioGraph UWP API
+* 🎉 \[NEW!] New welcome screen with initial setup
+* 🎉 \[NEW!] New What's New screen
+* 🎉 \[NEW!] Updated image editor (cropping and color correction are now combined on one page)
+* ⚙️ Updated and optimized image iteration mechanism, if the image was opened via file activation
+* ⚙️ Image opening mechanism updated and optimized
+* ⚙️ Third-party packages updated
+* ⚠️ \[WARNING] Due to the fact that the application was rewritten from scratch, the following functions are temporarily unavailable, as they have not yet been transferred from the old version:
+
+  * Creating an archive from a folder by right-clicking on a folder on the gallery page
+  * Setting your own image on the home page
+  * Setting up image stretching to full screen
+  * Setting up video fast forwarding duration
+  * Setting up the background of the music player
+  * Sorting the gallery by file type
+  * Sorting the gallery by time period
+  * Moving selected files in the gallery
+  * Creating a backup copy of application data
+  * Drag-and-Drop files from the application to the explorer
+  * Context menu on the image viewing page
+  * Printing an image
+  * Scrolling through images with swipes
+  * Exiting to the gallery page by swiping the image down
+  * Deleting an image by swiping the image up
+  * Animation when deleting an image
 
 ## Version 2503
+
 Released: 1 Mar 2025
 Since the main efforts are now focused on a complete rewrite of the application for the 5th anniversary, this release turned out to be small.
 
-**[Version #2503.1] - 22 Mar 2025**
-- Security update
 
-**[Version #2503.0] - 1 Mar 2025**
-- [NEW!] New context menus in Music Page, when right-clicking album cover
-- Added display of file path in video page title
-- Updated third-party packages
-- Security updates
-- Bugfixes
+
+**\[Version #2503.1] - 22 Mar 2025**
+
+* Security update
+
+**\[Version #2503.0] - 1 Mar 2025**
+
+* \[NEW!] New context menus in Music Page, when right-clicking album cover
+* Added display of file path in video page title
+* Updated third-party packages
+* Security updates
+* Bugfixes
 
 ## Version 2501
+
 Released: 20 Jan 2025
 First release in the new year! Minor additions to current features, UI fixes.
 
-**[Version #2501.1] - 7 Feb 2025**
-- Security updates
-- Third-party packages updated
 
-**[Version #2501.0] - 20 Jan 2025**
-- [NEW!] Before starting a slideshow, you can now specify whether to stretch the image to full screen or not
-- [NEW!] In Settings -> Personalization you can specify the default file sorting type in the gallery
-- [NEW!] In Settings -> Personalization you can specify video rewind duration
-- Animations edits
-- Third-party packages updated
-- Redesigned Settings screen
-- Redesigned videos cards in Gallery
-- Redesigned Whats New screen
-- Redesigned File Info screen
-- Removed support for older versions of Windows up to 2004 (build 19041), this time for good :)
+
+**\[Version #2501.1] - 7 Feb 2025**
+
+* Security updates
+* Third-party packages updated
+
+**\[Version #2501.0] - 20 Jan 2025**
+
+* \[NEW!] Before starting a slideshow, you can now specify whether to stretch the image to full screen or not
+* \[NEW!] In Settings -> Personalization you can specify the default file sorting type in the gallery
+* \[NEW!] In Settings -> Personalization you can specify video rewind duration
+* Animations edits
+* Third-party packages updated
+* Redesigned Settings screen
+* Redesigned videos cards in Gallery
+* Redesigned Whats New screen
+* Redesigned File Info screen
+* Removed support for older versions of Windows up to 2004 (build 19041), this time for good :)
 
 ## Version 2412 - New 2025 Year Update
+
 Released: 28 Dec 2024
-Last release of the year! 
+Last release of the year!
 Thank you for using my app!
 Happy New Year 2025!
 
-**[Version #2412.2] - 17 Jan 2025**
-- Updated third-party packages
 
-**[Version #2412.1] - 5 Jan 2025**
-- Fixed: image was not set as desktop wallpaper
 
-**[Version #2412.0] - 28 Dec 2024**
-- [NEW!] Added context menus in Home page
-- [NEW!] In Settings->Personalization you can now set not stretching image in full screen
-- [NEW!] You can now set image as wallpaper and lock screen image at one click
-- Refactored fast-back forward in video player
-- Changed background image
-- Some UI changes
-- Updated third-party packages
-- Bugfixes
+**\[Version #2412.2] - 17 Jan 2025**
+
+* Updated third-party packages
+
+**\[Version #2412.1] - 5 Jan 2025**
+
+* Fixed: image was not set as desktop wallpaper
+
+**\[Version #2412.0] - 28 Dec 2024**
+
+* \[NEW!] Added context menus in Home page
+* \[NEW!] In Settings->Personalization you can now set not stretching image in full screen
+* \[NEW!] You can now set image as wallpaper and lock screen image at one click
+* Refactored fast-back forward in video player
+* Changed background image
+* Some UI changes
+* Updated third-party packages
+* Bugfixes
 
 ## Version 2411 - November 2024 Update
+
 Released: 30 Nov 2024
 Small servicing release
 
-**[Version #2411.1] - 8 Dec 2024**
-- Fixed animation when deleting image
-- Fixed some app crashes
-- Fixed localization in context menus
-- Fixed displaying format of music/video duration
 
-**[Version #2411.0] - 30 Nov 2024**
-- Updated Windows SDK to version 10.0.26100
-- Security updates
-- Third-party packages updated
+
+**\[Version #2411.1] - 8 Dec 2024**
+
+* Fixed animation when deleting image
+* Fixed some app crashes
+* Fixed localization in context menus
+* Fixed displaying format of music/video duration
+
+**\[Version #2411.0] - 30 Nov 2024**
+
+* Updated Windows SDK to version 10.0.26100
+* Security updates
+* Third-party packages updated
 
 ## Version 2410 - Fall 2024 Update
+
 Released: 20 Oct 2024
 Update with various user experience improvements
 
-**[Version #2410.4] - 3 Nov 2024**
-- Improved image opening and gallery scrolling
-- Application name in the system has been shortened
 
-**[Version #2410.3] - 28 Oct 2024**
-- Fixed: sometimes folders in Manage Folders settings page were not displayed
 
-**[Version #2410.2] - 27 Oct 2024**
-- Updated Win2D package
+**\[Version #2410.4] - 3 Nov 2024**
 
-**[Version #2410.1] - 22 Oct 2024**
-- Bugfixes
+* Improved image opening and gallery scrolling
+* Application name in the system has been shortened
 
-**[Version #2410.0] - 20 Oct 2024**
-- [NEW!] Redesigned video player page
-- [NEW!] Redesigned playlist display in Gallery page
-- [NEW!] Set your image for Home page background
-- [NEW!] Personalization page in Settings
-- [NEW!] You can change default page when app starts in Settings
-- [NEW!] You can set track album image as music player background in Settings
-- [NEW!] Added display of the full path to the file on the Picture page
-- [NEW!] Added display of video resolution in file details
-- [NEW!] Added display of video resolution in file details
-- [NEW!] Music files in Explorer now have a new note icon
-- The app now saves the state of the sidebar on the gallery page
-- Track title in mini-player in title bar now in Marquee Text
-- New music icon
-- New animations in Music page
-- New animations in Picture page
-- Various UI changes
-- Updated third-party packages
-- Security changes
+**\[Version #2410.3] - 28 Oct 2024**
+
+* Fixed: sometimes folders in Manage Folders settings page were not displayed
+
+**\[Version #2410.2] - 27 Oct 2024**
+
+* Updated Win2D package
+
+**\[Version #2410.1] - 22 Oct 2024**
+
+* Bugfixes
+
+**\[Version #2410.0] - 20 Oct 2024**
+
+* \[NEW!] Redesigned video player page
+* \[NEW!] Redesigned playlist display in Gallery page
+* \[NEW!] Set your image for Home page background
+* \[NEW!] Personalization page in Settings
+* \[NEW!] You can change default page when app starts in Settings
+* \[NEW!] You can set track album image as music player background in Settings
+* \[NEW!] Added display of the full path to the file on the Picture page
+* \[NEW!] Added display of video resolution in file details
+* \[NEW!] Added display of video resolution in file details
+* \[NEW!] Music files in Explorer now have a new note icon
+* The app now saves the state of the sidebar on the gallery page
+* Track title in mini-player in title bar now in Marquee Text
+* New music icon
+* New animations in Music page
+* New animations in Picture page
+* Various UI changes
+* Updated third-party packages
+* Security changes
 
 ## Version 2407 - Mid-year Update
+
 Released: 29 Jul 2024
 Completely redesigned and rewritten gallery page to match Windows 11 style
 
-**[Version #2407.11] - 21 Sep 2024**
-- Updated third-party packages
-- Internal changes
 
-**[Version #2407.10] - 14 Sep 2024**
-- Bugfixes
 
-**[Version #2407.9] - 8 Sep 2024**
-- Security fixes
-- Some UI edits
-- Updated third-party packages
+**\[Version #2407.11] - 21 Sep 2024**
 
-**[Version #2407.8] - 28 Aug 2024**
-- Updated third-party packages
-- Security fixes
-- Bugfix with welcome screen
+* Updated third-party packages
+* Internal changes
 
-**[Version #2407.7] - 22 Aug 2024**
-- Updated CommunityToolkit from 8.0.2 to 8.1.0
-- Security fixes
+**\[Version #2407.10] - 14 Sep 2024**
 
-**[Version #2407.6] - 6 Aug 2024**
-- Logic for displaying a message about the availability of an update has been changed
-- Changed animation when deleting an image
-- Reduced size of elements on the home page
+* Bugfixes
 
-**[Version #2407.5] - 3 Aug 2024**
-- Fixed the app crash when adding folders to the gallery
+**\[Version #2407.9] - 8 Sep 2024**
 
-**[Version #2407.4] - 3 Aug 2024**
-- Restored context menu in gallery when right-clicking on music or video element
+* Security fixes
+* Some UI edits
+* Updated third-party packages
 
-**[Version #2407.3] - 1 Aug 2024**
-- Fixed video title text color in white theme
+**\[Version #2407.8] - 28 Aug 2024**
 
-**[Version #2407.2] - 30 Jul 2024**
-- UI bugfixes
-- Localization fixes
+* Updated third-party packages
+* Security fixes
+* Bugfix with welcome screen
 
-**[Version #2407.1] - 29 Jul 2024**
-- UI bugfixes
-- Returned support for older versions of Windows 10 (up to and including 1809)
+**\[Version #2407.7] - 22 Aug 2024**
 
-**[Version #2407.0] - 29 Jul 2024**
-- [NEW!] The gallery page has been completely redesigned and rewritten to fit the Windows 11 style
-- [NEW!] Home page, where you can see all your recent media files. The initial implementation, some functions from the old implementation may not be available yet, bugs are possible, but I will try to finalize everything soon
-- [NEW!] Added titlebar
-- [NEW!] Experimental HEIF/HEIC files support (with installed codecs from Microsoft Store)
-- The mini-player for controlling music outside the music page has been moved to the titlebar
-- Redesigned [Whats New] screen
-- Smoother image opening
-- Slightly sped up application opening
-- Bugfixes
-- Updated third-party packages
-- Security fixes
+* Updated CommunityToolkit from 8.0.2 to 8.1.0
+* Security fixes
+
+**\[Version #2407.6] - 6 Aug 2024**
+
+* Logic for displaying a message about the availability of an update has been changed
+* Changed animation when deleting an image
+* Reduced size of elements on the home page
+
+**\[Version #2407.5] - 3 Aug 2024**
+
+* Fixed the app crash when adding folders to the gallery
+
+**\[Version #2407.4] - 3 Aug 2024**
+
+* Restored context menu in gallery when right-clicking on music or video element
+
+**\[Version #2407.3] - 1 Aug 2024**
+
+* Fixed video title text color in white theme
+
+**\[Version #2407.2] - 30 Jul 2024**
+
+* UI bugfixes
+* Localization fixes
+
+**\[Version #2407.1] - 29 Jul 2024**
+
+* UI bugfixes
+* Returned support for older versions of Windows 10 (up to and including 1809)
+
+**\[Version #2407.0] - 29 Jul 2024**
+
+* \[NEW!] The gallery page has been completely redesigned and rewritten to fit the Windows 11 style
+* \[NEW!] Home page, where you can see all your recent media files. The initial implementation, some functions from the old implementation may not be available yet, bugs are possible, but I will try to finalize everything soon
+* \[NEW!] Added titlebar
+* \[NEW!] Experimental HEIF/HEIC files support (with installed codecs from Microsoft Store)
+* The mini-player for controlling music outside the music page has been moved to the titlebar
+* Redesigned \[Whats New] screen
+* Smoother image opening
+* Slightly sped up application opening
+* Bugfixes
+* Updated third-party packages
+* Security fixes
 
 ## Version 2406 - Summer 2024 Update
+
 Released: Jun 5, 2024
 Small servicing release
 
-**[Version #2406.3] - 10 Jul 2024**
-- Security update
+**\[Version #2406.3] - 10 Jul 2024**
 
-**[Version #2406.2] - 29 Jun 2024**
-- Fixed some crashes
+* Security update
 
-**[Version #2406.1] - 14 Jun 2024**
-- Perfomance optimizations on image opening
+**\[Version #2406.2] - 29 Jun 2024**
 
-**[Version #2406.0] - 5 Jun 2024**
-- Bugfixes
-- Updated third-party libraries
-- Security updates
-- Removed anniversary decorations
-- New Welcome/Whats New screen background image
+* Fixed some crashes
+
+**\[Version #2406.1] - 14 Jun 2024**
+
+* Perfomance optimizations on image opening
+
+**\[Version #2406.0] - 5 Jun 2024**
+
+* Bugfixes
+* Updated third-party libraries
+* Security updates
+* Removed anniversary decorations
+* New Welcome/Whats New screen background image
 
 ## Version 2405 - 4th Anniversary Update
+
 Released: May 2, 2024
 Big update for the app's 4th anniversary! Thank you for staying with us :)
 
-**[Version #2405.3] - 10 May 2024**
-- Fixed some app crash
+**\[Version #2405.3] - 10 May 2024**
 
-**[Version #2405.2] - 5 May 2024**
-- Fixed a bug with not downloading the following files when opening a file
+* Fixed some app crash
 
-**[Version #2405.1] - 4 May 2024**
-- Fixed a bug with the presence of a playlist list in the image and video gallery
+**\[Version #2405.2] - 5 May 2024**
 
-**[Version #2405.0] - 2 May 2024**
-- [NEW!] Playlists support (Beta). Sort music tracks into playlists.
-- [NEW!] Support playback of playlist files type: .m3u
-- [NEW!] Added the ability to export created playlists
-- [NEW!] New tree view of folders in the gallery
-- [NEW!] Scroll the video forward/backward 30 seconds by double tapping on the left or right side of the screen
-- [NEW!] Hold your mouse pointer/finger on the video to slow it down by 2 times
-- [NEW!] When the video ends, a new window will appear asking you to open the next video
-- [NEW!] Ability to display the current playlist on the music playback page
-- [NEW!] Ability to tap on an item in File Details to copy the value
-- Image detail design now matches window design in video and music.
-- Added animation when clicking on the open settings button
-- Editing animations when transitioning between pages
-- A 4th Anniversary background image has been added to the What's New and Welcome pages
-- Numerous minor UI fixes
-- Updated some third party libraries
-- Bug fixes from the previous release
+* Fixed a bug with not downloading the following files when opening a file
+
+**\[Version #2405.1] - 4 May 2024**
+
+* Fixed a bug with the presence of a playlist list in the image and video gallery
+
+**\[Version #2405.0] - 2 May 2024**
+
+* \[NEW!] Playlists support (Beta). Sort music tracks into playlists.
+* \[NEW!] Support playback of playlist files type: .m3u
+* \[NEW!] Added the ability to export created playlists
+* \[NEW!] New tree view of folders in the gallery
+* \[NEW!] Scroll the video forward/backward 30 seconds by double tapping on the left or right side of the screen
+* \[NEW!] Hold your mouse pointer/finger on the video to slow it down by 2 times
+* \[NEW!] When the video ends, a new window will appear asking you to open the next video
+* \[NEW!] Ability to display the current playlist on the music playback page
+* \[NEW!] Ability to tap on an item in File Details to copy the value
+* Image detail design now matches window design in video and music.
+* Added animation when clicking on the open settings button
+* Editing animations when transitioning between pages
+* A 4th Anniversary background image has been added to the What's New and Welcome pages
+* Numerous minor UI fixes
+* Updated some third party libraries
+* Bug fixes from the previous release
 
 ## Version 2404 - Spring 2024 Update
+
 Released: Mar 1, 2024
 Servicing release
 
-**[Version #2404.1] - 10 Mar 2024**
-- Fixed the appearance of the year 1601 in the Timeline. Clicking on it caused the application to crash
-- Optimized access to files in the gallery
-- Slightly optimized RAM consumption when opening images
+**\[Version #2404.1] - 10 Mar 2024**
 
-**[Version #2404.0] - 1 Mar 2024**
-- Optimized and accelerated timeline loading
-- Windows SDK version updated to 10.0.19041
-- Minimum required Windows build for app installation has been updated to 10.0.19044 (Windows 10 version 21H2)
+* Fixed the appearance of the year 1601 in the Timeline. Clicking on it caused the application to crash
+* Optimized access to files in the gallery
+* Slightly optimized RAM consumption when opening images
+
+**\[Version #2404.0] - 1 Mar 2024**
+
+* Optimized and accelerated timeline loading
+* Windows SDK version updated to 10.0.19041
+* Minimum required Windows build for app installation has been updated to 10.0.19044 (Windows 10 version 21H2)
 
 ## Version 2403 - Long-Term Support Release
+
 Released: Mar 1, 2024
 Long-term support release for no longer supported device configurations.
 This version will receive bug fixes and security updates until the end of 2025.
 
-The application, starting from version 2404, no longer supports: 
+The application, starting from version 2404, no longer supports:
 -Windows 10 versions 1809, 1903, 1909, 2004, 20H2, 21H1
 -x32 processors
 -ARM32 (not ARM64!) processors
@@ -331,709 +833,796 @@ The application, starting from version 2404, no longer supports:
 If you have received this version (2403), then most likely you are on one of these more unsupported device configurations.
 More details on the What's New page (icon with a question on the main page)
 
-**[Version #2403.0] - 1 Mar 2024**
-- Optimized and accelerated timeline loading
+**\[Version #2403.0] - 1 Mar 2024**
+
+* Optimized and accelerated timeline loading
 
 ## Version 2402 - February 2024 Update
+
 Released: Feb 5, 2024
 First release in 2024!
 
-**[Version #2402.0] - 5 Feb 2024**
-- [NEW!] The global music player in the app. The music now doesn't stop when you exit the music page
-- [NEW!] Mini-player in the gallery, slideshow page and image viewer page
-- [NEW!] Context menus when clicking on a file in the gallery
-- [NEW!] Context menus when clicking on a folder in the gallery
-- [NEW!] Dragging files from the application to the system
-- [REMOVED] HEVC-videos extension from extensions list in Settings window due to its now unavailable in the Microsoft Store
-- Some minor UI edits throughout the app
-- Minor performance improvements
-- Bugfixes
+**\[Version #2402.0] - 5 Feb 2024**
 
-**[Version #2402.1] - 7 Feb 2024**
-- [NEW!] Ease of use: tap on the background of the pop-up window to close it
+* \[NEW!] The global music player in the app. The music now doesn't stop when you exit the music page
+* \[NEW!] Mini-player in the gallery, slideshow page and image viewer page
+* \[NEW!] Context menus when clicking on a file in the gallery
+* \[NEW!] Context menus when clicking on a folder in the gallery
+* \[NEW!] Dragging files from the application to the system
+* \[REMOVED] HEVC-videos extension from extensions list in Settings window due to its now unavailable in the Microsoft Store
+* Some minor UI edits throughout the app
+* Minor performance improvements
+* Bugfixes
 
-**[Version #2402.2] - 11 Feb 2024**
-- Bugfixes
+**\[Version #2402.1] - 7 Feb 2024**
 
-**[Version #2402.3] - 13 Feb 2024**
-- Fixed: app crash
+* \[NEW!] Ease of use: tap on the background of the pop-up window to close it
 
-**[Version #2402.4] - 14 Feb 2024**
-- Fixed: Rate app dialog errors
-- Folders list is now updated too when you click the gallery update button
-- Some third-party libs updated
+**\[Version #2402.2] - 11 Feb 2024**
 
-**[Version #2402.5] - 15 Feb 2024**
-- [NEW!] When dragging files, the page blurs
+* Bugfixes
 
-**[Version #2402.6] - 16 Feb 2024**
-- [NEW!] Now you can drag and drop a music file directly from the player page by pulling on the album image of the track
-- Improved perfomance on opening image in picture page
+**\[Version #2402.3] - 13 Feb 2024**
 
-**[Version #2402.7] - 18 Feb 2024**
-- [NEW!] Gallery sorting! Click on Filter-icon button at the bottom of the gallery page
-- [NEW!] Previously temporarily disabled file viewing function on a removable device has been returned
-- Some under-the-hood changes
+* Fixed: app crash
 
-**[Version #2402.8] - 20 Feb 2024**
-- Fixed: miniplayer click not working sometimes
-- Fixed: the distances between the elements in the gallery
-- Some UI changes
+**\[Version #2402.4] - 14 Feb 2024**
 
-**[Version #2402.9] - 21 Feb 2024**
-- Mini-player UI improvements
-- Fixed: the distances between the elements in the gallery
+* Fixed: Rate app dialog errors
+* Folders list is now updated too when you click the gallery update button
+* Some third-party libs updated
 
-**[Version #2402.10] - 23 Feb 2024**
-- Mini-player fixes
-- RAM usage optimizations
+**\[Version #2402.5] - 15 Feb 2024**
 
-**[Version #2402.11] - 25 Feb 2024**
-- Some UI edits
+* \[NEW!] When dragging files, the page blurs
 
-**[Version #2402.12] - 27 Feb 2024**
-- [NEW!] Additional sorting options in Gallery page
+**\[Version #2402.6] - 16 Feb 2024**
 
-**[Version #2402.13] - 29 Feb 2024**
-- Fixed: crash of the application when trying to sort files in folders outside the gallery
-- Option to sort videos and music by duration is temporarily disabled due to an error found
-- Some RAM-usage optimizations
+* \[NEW!] Now you can drag and drop a music file directly from the player page by pulling on the album image of the track
+* Improved perfomance on opening image in picture page
+
+**\[Version #2402.7] - 18 Feb 2024**
+
+* \[NEW!] Gallery sorting! Click on Filter-icon button at the bottom of the gallery page
+* \[NEW!] Previously temporarily disabled file viewing function on a removable device has been returned
+* Some under-the-hood changes
+
+**\[Version #2402.8] - 20 Feb 2024**
+
+* Fixed: miniplayer click not working sometimes
+* Fixed: the distances between the elements in the gallery
+* Some UI changes
+
+**\[Version #2402.9] - 21 Feb 2024**
+
+* Mini-player UI improvements
+* Fixed: the distances between the elements in the gallery
+
+**\[Version #2402.10] - 23 Feb 2024**
+
+* Mini-player fixes
+* RAM usage optimizations
+
+**\[Version #2402.11] - 25 Feb 2024**
+
+* Some UI edits
+
+**\[Version #2402.12] - 27 Feb 2024**
+
+* \[NEW!] Additional sorting options in Gallery page
+
+**\[Version #2402.13] - 29 Feb 2024**
+
+* Fixed: crash of the application when trying to sort files in folders outside the gallery
+* Option to sort videos and music by duration is temporarily disabled due to an error found
+* Some RAM-usage optimizations
 
 ## Version 2312 - Winter 2023 Update
+
 Released: Dec 3, 2023
 Another service release aimed at improving the stability and performance of the application
 
-**[Version #2312.0] - 3 Dec 2023**
-- [NEW!] Chinese localization
-- Significantly improved performance when switching folders in the gallery
-- Improved the app launch speed
-- Improved image editor performance
-- Improved performance when working with the Timeline
-- Numerous changes, improvements and optimizations "under the hood"
-- When the application is launched, it now checks access to the library of images and videos
-- The settings window now displays a list of changes to only the current version
-- The changelogs of previous versions are now posted on GitHub (the link is available in the settings window)
-- Integration with the Telegram application channel has been removed
-- The donation page has been deleted
-- For better performance, the carousel has been replaced with a standard collection control in the Timeline
-- When starting a slideshow, the application now checks that there are enough images in the selected folder
-- The settings window has been reduced
-- The page switching animation in the settings window has been changed and accelerated
-- Various interface edits throughout the application
-- WinUI has been updated to version 2.8.6
-- CommunityToolkit has been updated from version 7.1.3 to 8.0.0
+**\[Version #2312.0] - 3 Dec 2023**
 
-**[Version #2312.1] - 4 Dec 2023**
-- Fixed app title in Start Menu
+* \[NEW!] Chinese localization
+* Significantly improved performance when switching folders in the gallery
+* Improved the app launch speed
+* Improved image editor performance
+* Improved performance when working with the Timeline
+* Numerous changes, improvements and optimizations "under the hood"
+* When the application is launched, it now checks access to the library of images and videos
+* The settings window now displays a list of changes to only the current version
+* The changelogs of previous versions are now posted on GitHub (the link is available in the settings window)
+* Integration with the Telegram application channel has been removed
+* The donation page has been deleted
+* For better performance, the carousel has been replaced with a standard collection control in the Timeline
+* When starting a slideshow, the application now checks that there are enough images in the selected folder
+* The settings window has been reduced
+* The page switching animation in the settings window has been changed and accelerated
+* Various interface edits throughout the application
+* WinUI has been updated to version 2.8.6
+* CommunityToolkit has been updated from version 7.1.3 to 8.0.0
 
-**[Version #2312.2] - 15 Jan 2024**
-- Updated CommunityToolkit.WinUI to 8.0.1
-- Bugfixes
+**\[Version #2312.1] - 4 Dec 2023**
 
-**[Version #2312.3] - 1 Feb 2024**
-- Fixed: video-files previews not displayed
+* Fixed app title in Start Menu
+
+**\[Version #2312.2] - 15 Jan 2024**
+
+* Updated CommunityToolkit.WinUI to 8.0.1
+* Bugfixes
+
+**\[Version #2312.3] - 1 Feb 2024**
+
+* Fixed: video-files previews not displayed
 
 ## Version 2311 - November 2023 Update
 
 The release is mainly for fixes and optimizations. The gallery sorting function will be added later in one of the patches to version 2311.
 
-**[version #2311.0] - 1 Nov 2023**
-- Timeline-gallery loading is accelerated several times
-- Changed the UI of video and music cards in the gallery
-- Added animation of loading cards in the gallery
-- Added animations in the music player
-- Accelerated opening of music files
-- The cards in the gallery are now centered and do not stretch to fit the size of the window
-- Large internal permutations in the project and code refactoring
-- Minor adjustments to background colors and fonts
+**\[version #2311.0] - 1 Nov 2023**
+
+* Timeline-gallery loading is accelerated several times
+* Changed the UI of video and music cards in the gallery
+* Added animation of loading cards in the gallery
+* Added animations in the music player
+* Accelerated opening of music files
+* The cards in the gallery are now centered and do not stretch to fit the size of the window
+* Large internal permutations in the project and code refactoring
+* Minor adjustments to background colors and fonts
 
 ## Version 2310 - Quality Update
 
-Multiple fixes and usability improvements 
+Multiple fixes and usability improvements
 New localizations and opening files on removable devices
 
-**[version #2310.0 (#3260)] - 2 Oct 2023**
-- [NEW!] Scrolling through music files
-- [NEW!] Ability to view files on removable devices
-- [NEW!] Turkish localization
-- [NEW!] Vietnamese localization
-- [NEW!] German localization
-- Perfomance improvements
-- The launch of the application is slightly accelerated (it will be slightly noticeable on weak devices)
-- Accelerated opening and scrolling of images. Now the low resolution image is displayed first and the original resolution image is loaded in the background
-- Redesigned Tab-navigation. Improved usability with keyboard, gamepad or joystick
-- Redesigned Welcome screen (yes, again)
-- Added animation when pausing a music file
-- At the end of a music track, a pop-up now appears with information about the next track
-- When the video is paused, its name is now displayed
-- Added a double-click to switch the video to full screen
-- When you press the arrow keys, the music and video are now rewound for 10 seconds
-- The gallery page now displays a button to open the What's New window
-- By pressing Escape, you can now access the gallery from the Image, Music and Video pages
-- UI edits in the Video and Music FileInfo pages
-- UI edits in Filters Page
-- UI edits in Slide-Show Page
-- Bugfixes
+**\[version #2310.0 (#3260)] - 2 Oct 2023**
 
-**[version #2310.1 (#3261)] - 3 Oct 2023**
-- Fixed: the clock is not displayed in the slideshow
-- Fixed: visual bug of displaying information about a music/video file
+* \[NEW!] Scrolling through music files
+* \[NEW!] Ability to view files on removable devices
+* \[NEW!] Turkish localization
+* \[NEW!] Vietnamese localization
+* \[NEW!] German localization
+* Perfomance improvements
+* The launch of the application is slightly accelerated (it will be slightly noticeable on weak devices)
+* Accelerated opening and scrolling of images. Now the low resolution image is displayed first and the original resolution image is loaded in the background
+* Redesigned Tab-navigation. Improved usability with keyboard, gamepad or joystick
+* Redesigned Welcome screen (yes, again)
+* Added animation when pausing a music file
+* At the end of a music track, a pop-up now appears with information about the next track
+* When the video is paused, its name is now displayed
+* Added a double-click to switch the video to full screen
+* When you press the arrow keys, the music and video are now rewound for 10 seconds
+* The gallery page now displays a button to open the What's New window
+* By pressing Escape, you can now access the gallery from the Image, Music and Video pages
+* UI edits in the Video and Music FileInfo pages
+* UI edits in Filters Page
+* UI edits in Slide-Show Page
+* Bugfixes
 
-**[version #2310.2 (#3264)] - 5 Oct 2023**
-- Fixed: application crash when trying to move files in the gallery
-- Fixed: the gallery was not updated automatically when adding/removing folders from libraries
-- Fixed: incorrect gallery update after deleting/moving files
+**\[version #2310.1 (#3261)] - 3 Oct 2023**
 
-**[version #2310.3 (#3265)] - 6 Oct 2023**
-- Fixed: some localization issues
+* Fixed: the clock is not displayed in the slideshow
+* Fixed: visual bug of displaying information about a music/video file
 
-**[version #2310.4 (#3271)] - 7 Oct 2023**
-- Updated icons
-- Updated items design in the music and video gallery
-- Added an icon that is displayed when a music track does not have an album image
-- Fixed: broken icons
+**\[version #2310.2 (#3264)] - 5 Oct 2023**
 
-**[version #2310.5 (#3272)] - 9 Oct 2023**
-- Some localization fixes
+* Fixed: application crash when trying to move files in the gallery
+* Fixed: the gallery was not updated automatically when adding/removing folders from libraries
+* Fixed: incorrect gallery update after deleting/moving files
 
-**[version #2310.6 (#3284)] - 11 Oct 2023**
-- Fixed: app crash when opening music
+**\[version #2310.3 (#3265)] - 6 Oct 2023**
 
-**[version #2310.7 (#3285)] - 11 Oct 2023**
-- Fixed: app crash when opening FLAC-files
+* Fixed: some localization issues
 
-**[version #2310.8 (#3291)] - 11 Oct 2023**
-- Redesigned layout of the image editor page
-- Improved sliders for more convenient change through the keyboard or gamepad
-- Fixed: some UI errors in image editor page
+**\[version #2310.4 (#3271)] - 7 Oct 2023**
+
+* Updated icons
+* Updated items design in the music and video gallery
+* Added an icon that is displayed when a music track does not have an album image
+* Fixed: broken icons
+
+**\[version #2310.5 (#3272)] - 9 Oct 2023**
+
+* Some localization fixes
+
+**\[version #2310.6 (#3284)] - 11 Oct 2023**
+
+* Fixed: app crash when opening music
+
+**\[version #2310.7 (#3285)] - 11 Oct 2023**
+
+* Fixed: app crash when opening FLAC-files
+
+**\[version #2310.8 (#3291)] - 11 Oct 2023**
+
+* Redesigned layout of the image editor page
+* Improved sliders for more convenient change through the keyboard or gamepad
+* Fixed: some UI errors in image editor page
 
 ## Version 2309 - A New Era Release
 
 The biggest update I've ever done is already here! New features, rebranding and numerous edits)
-Since the application now has not only images, but also videos with music, 
+Since the application now has not only images, but also videos with music,
 it was decided to rename it to better reflect the essence of the application.
 Since the update is quite large, some bugs and instability are possible. I will try to promptly correct errors as they are identified.
 
-**[version #2309.0 (#3144)] - 8 Sep 2023**
-- [NEW!] Timeline feature! Sort your images by year with a nice carousel
-- [NEW!] Music Gallery feature! Add music folders to the gallery and view them
-- [NEW!] File Info view for videos
-- [NEW!] File Info view for music
-- [NEW!] Completely redesigned slide show
-- [NEW!] Option to display the clock in a slideshow
-- [NEW!] Added more than 60 animations to the slideshow
-- [NEW!] More detailed color correction! Check in the Filters Page. Edit the color correction as a Pro!)
-- [NEW!] Extensions gallery! A list of extensions available for installation, for opening more rare or professional file formats and images or videos. Available in Settings
-- [NEW!] New logo
-- [NEW!] New app name: SimplePhotos! -> FlyGallery!
-- [NEW!] Donate option changed from Boosty to Telegram Donate Bot
-- [NEW!] A Telegram channel has been created for the news of the application, you can also support the development of the application there) Link in the Settings
-- [NEW1] Clicking on a field in the File Info screen (music and video so far) copies this field to the clipboard
-- [REMOVED!] Drawing feature
-- Redesigned Welcome Screen
-- Redesigned WhatsNew Screen
-- Redesigned MusicPlayer Page
-- Redesigned video gallery items
-- Redesigned main gallery page
-- Fully rewritten Settings screen for better perfomance and rendering
-- Added acrylic background for pages on Windows 10 devices
-- Added new animations when switching pages for additional smoothness of the application
-- Changed the animation of opening/closing pop-ups
-- WinUI updated to 2.8.5
-- Win2d updated to 1.27.0
-- Other third-party libraries updated
-- Bugfixes
+**\[version #2309.0 (#3144)] - 8 Sep 2023**
 
-**[version #2309.1 (#3145)] - 10 Sep 2023**
-- Fixed incorrect display of folders in the music gallery
+* \[NEW!] Timeline feature! Sort your images by year with a nice carousel
+* \[NEW!] Music Gallery feature! Add music folders to the gallery and view them
+* \[NEW!] File Info view for videos
+* \[NEW!] File Info view for music
+* \[NEW!] Completely redesigned slide show
+* \[NEW!] Option to display the clock in a slideshow
+* \[NEW!] Added more than 60 animations to the slideshow
+* \[NEW!] More detailed color correction! Check in the Filters Page. Edit the color correction as a Pro!)
+* \[NEW!] Extensions gallery! A list of extensions available for installation, for opening more rare or professional file formats and images or videos. Available in Settings
+* \[NEW!] New logo
+* \[NEW!] New app name: SimplePhotos! -> FlyGallery!
+* \[NEW!] Donate option changed from Boosty to Telegram Donate Bot
+* \[NEW!] A Telegram channel has been created for the news of the application, you can also support the development of the application there) Link in the Settings
+* \[NEW1] Clicking on a field in the File Info screen (music and video so far) copies this field to the clipboard
+* \[REMOVED!] Drawing feature
+* Redesigned Welcome Screen
+* Redesigned WhatsNew Screen
+* Redesigned MusicPlayer Page
+* Redesigned video gallery items
+* Redesigned main gallery page
+* Fully rewritten Settings screen for better perfomance and rendering
+* Added acrylic background for pages on Windows 10 devices
+* Added new animations when switching pages for additional smoothness of the application
+* Changed the animation of opening/closing pop-ups
+* WinUI updated to 2.8.5
+* Win2d updated to 1.27.0
+* Other third-party libraries updated
+* Bugfixes
 
-**[version #2309.2 (#3146)] - 15 Sep 2023**
-- Removed acrylic background in Picture Page on Windows 10
-- Some colors corrections in UI
-- Acrylic transparency in Music Page reduced
+**\[version #2309.1 (#3145)] - 10 Sep 2023**
 
-**[version #2309.3 (#3155)] - 17 Sep 2023**
-- Fixed date-time formatting in File Info popups
-- Fixed gallery button in Music Gallery
-- Fixed folders layout in adding folders in Settings
+* Fixed incorrect display of folders in the music gallery
+
+**\[version #2309.2 (#3146)] - 15 Sep 2023**
+
+* Removed acrylic background in Picture Page on Windows 10
+* Some colors corrections in UI
+* Acrylic transparency in Music Page reduced
+
+**\[version #2309.3 (#3155)] - 17 Sep 2023**
+
+* Fixed date-time formatting in File Info popups
+* Fixed gallery button in Music Gallery
+* Fixed folders layout in adding folders in Settings
 
 ## Version 2306 - Music Update
 
-The ability to open music format files! So far, only the basic functionality is available - opening music files. 
-The music gallery and other related functions, such as information about the music file, 
+The ability to open music format files! So far, only the basic functionality is available - opening music files.
+The music gallery and other related functions, such as information about the music file,
 moving to the next track in the folder will be available later.
 
-**[version #2306.0 (#2951)] - 15 Jun 2023**
-- [NEW!] Music files support (mp3, wav, aac, flac, m4a) (now in beta)
-- Added some animations when switching application pages
-- Third-party packages update
-- Removed anniversary decorations
-- Some fixes with gif-files
+**\[version #2306.0 (#2951)] - 15 Jun 2023**
 
-**[version #2306.1 (#2952)] - 17 Jun 2023**
-- Fixed bug with transparent popups
-- Temporarily removed the animation of the transition between pages
+* \[NEW!] Music files support (mp3, wav, aac, flac, m4a) (now in beta)
+* Added some animations when switching application pages
+* Third-party packages update
+* Removed anniversary decorations
+* Some fixes with gif-files
+
+**\[version #2306.1 (#2952)] - 17 Jun 2023**
+
+* Fixed bug with transparent popups
+* Temporarily removed the animation of the transition between pages
 
 ## Version 2305 - Third Anniversary Update
 
-The application is 3 years old! 
+The application is 3 years old!
 The update for the third anniversary is already here!
 
-**[version #2305.0 (#2816)] - 20 May 2023**
-- [NEW!] GIF-files support
-- [NEW!] WEBP-files support
-- Third-party packages updated
-- Anniversary decorations
-- Small UI adjustments
-- Build number is now hidden for better readability of the app version
-- Slight performance improvement
-- Added the display of the full version of the application on the page with the list of changes
+**\[version #2305.0 (#2816)] - 20 May 2023**
+
+* \[NEW!] GIF-files support
+* \[NEW!] WEBP-files support
+* Third-party packages updated
+* Anniversary decorations
+* Small UI adjustments
+* Build number is now hidden for better readability of the app version
+* Slight performance improvement
+* Added the display of the full version of the application on the page with the list of changes
 
 ## Version 2304 - April 2023 Update
 
-A small technical release is already here! 
+A small technical release is already here!
 Internal changes to bring back support for older versions of Windows 10, and a new option in the image editor!
 
-**[build #2636] - 1 Apr 2023**
-- [NEW!] Hue Rotation option in Image Editor
-- [NEW!] Returned support for older versions of Windows 10 prior to version 1809
-- Small adjustments to animations
-- Fixed ability to start slideshow from empty folder
-[build #2638] - 10 Apr 2023
-- Bugfix: hue rotation effect not applying
+**\[build #2636] - 1 Apr 2023**
+
+* \[NEW!] Hue Rotation option in Image Editor
+* \[NEW!] Returned support for older versions of Windows 10 prior to version 1809
+* Small adjustments to animations
+* Fixed ability to start slideshow from empty folder
+  \[build #2638] - 10 Apr 2023
+* Bugfix: hue rotation effect not applying
 
 ## Version 2303 - Spring 2023 Update
 
 Spring update is here! Video functionality improvements and multi-selection in gallery feature!
 Further development of the multiple selection feature will be in the upcoming updates
 
-**[build #2616] - 20 Mar 2023**
-- [NEW!] Images and videos multi-selection in gallery
-- [NEW!] One-click deletion selected images/videos
-- [NEW!] One-click moving to folder selected images/videos
-- Some UI improvements in video page and video-paused page
-- The background of the video title in the gallery has been replaced to accent color due to performance drawdowns
-- Some system changes
-- Third-party libraries updated
-- Redesigned app updating notification
-- Removed gray splashscreen background color
-- Removed app updating screen
-- Bugfixes
+**\[build #2616] - 20 Mar 2023**
+
+* \[NEW!] Images and videos multi-selection in gallery
+* \[NEW!] One-click deletion selected images/videos
+* \[NEW!] One-click moving to folder selected images/videos
+* Some UI improvements in video page and video-paused page
+* The background of the video title in the gallery has been replaced to accent color due to performance drawdowns
+* Some system changes
+* Third-party libraries updated
+* Redesigned app updating notification
+* Removed gray splashscreen background color
+* Removed app updating screen
+* Bugfixes
 
 ## Version 2301 - Media Update
 
-First update in 2023 is already here! 
+First update in 2023 is already here!
 Video files support and videogallery feature!
 
-**[build #2401] - 3 Jan 2023**
-- [NEW!] App icon and logo
-- [NEW!] Ability to open video files (now in BETA)
-- [NEW!] Function of viewing the video library as a gallery (now in BETA)
-- [NEW!] Ability to add folders to videos library (in app settings)
-- [NEW!] Opening folders to view video files (now in BETA)
-- [NEW!] Redesigned settings page
-- [NEW!] RateApp and Error dialogs
-- [REMOVED!] Images carousel temporary removed due to serious performance issues
-- [REMOVED!] Animation when scrolling through images using buttons in the UI or on the keyboard
-- [SYSTEM] Completely redesigned the mechanism of the image collection 
-when opening the application through a file. 
-Performance in folders with a large number of images should increase several times
-- Several animations changes
-- Several UI changes
-- Gallery processing has been accelerated
-- New mechanism for storing app settings
-- System libraries updated
-- WinUI updated to version 2.8.2
-- Added nice animation in FileInfo screen
+**\[build #2401] - 3 Jan 2023**
+
+* \[NEW!] App icon and logo
+* \[NEW!] Ability to open video files (now in BETA)
+* \[NEW!] Function of viewing the video library as a gallery (now in BETA)
+* \[NEW!] Ability to add folders to videos library (in app settings)
+* \[NEW!] Opening folders to view video files (now in BETA)
+* \[NEW!] Redesigned settings page
+* \[NEW!] RateApp and Error dialogs
+* \[REMOVED!] Images carousel temporary removed due to serious performance issues
+* \[REMOVED!] Animation when scrolling through images using buttons in the UI or on the keyboard
+* \[SYSTEM] Completely redesigned the mechanism of the image collection
+  when opening the application through a file.
+  Performance in folders with a large number of images should increase several times
+* Several animations changes
+* Several UI changes
+* Gallery processing has been accelerated
+* New mechanism for storing app settings
+* System libraries updated
+* WinUI updated to version 2.8.2
+* Added nice animation in FileInfo screen
 
 ## Version 2212 - New Year 2023 Update
 
 Few fixes and improvements for the New Year
 
-**[build #2216] - 9 Nov 2022**
-- System libraries updated
-- Slightly reduced the size of the application
+**\[build #2216] - 9 Nov 2022**
 
-**[build #2218] - 24 Dev 2022**
-- Bugfix with welcoming screen
+* System libraries updated
+* Slightly reduced the size of the application
+
+**\[build #2218] - 24 Dev 2022**
+
+* Bugfix with welcoming screen
 
 ## Version 2211 - Fall 2022 Update
 
 Swipes, folder management improvements and refreshed app design
 
-**[build #2200] - 5 Nov 2022**
-- [NEW!] When opening a folder, the top bar now displays the subfolders
-- [NEW!] In the gallery window, it is now possible to go through the nested folders
-- [NEW!] Refreshed design and new animations
-- [NEW!] Swipes in picture page. Swipe up for deleting image, swipe down for back to gallery
-- [NEW!] Reworked images scrolling swipes. Now the picture follows the finger when flipping
-- Updated: donation page in Settings screen
-- Updated: folders page in Settings screen
-- Updated: about app page in Settings screen
-- Optimized: image output in Filters screen. RAM consumption for heavy images is reduced by almost half
-- Fixed: after adding a folder to the image library, the gallery was not automatically updated
-- Fixed: some visual errors in Settings screen
-- Big internal changes
-- Third-party libraries updated
+**\[build #2200] - 5 Nov 2022**
+
+* \[NEW!] When opening a folder, the top bar now displays the subfolders
+* \[NEW!] In the gallery window, it is now possible to go through the nested folders
+* \[NEW!] Refreshed design and new animations
+* \[NEW!] Swipes in picture page. Swipe up for deleting image, swipe down for back to gallery
+* \[NEW!] Reworked images scrolling swipes. Now the picture follows the finger when flipping
+* Updated: donation page in Settings screen
+* Updated: folders page in Settings screen
+* Updated: about app page in Settings screen
+* Optimized: image output in Filters screen. RAM consumption for heavy images is reduced by almost half
+* Fixed: after adding a folder to the image library, the gallery was not automatically updated
+* Fixed: some visual errors in Settings screen
+* Big internal changes
+* Third-party libraries updated
 
 ## Version 2208 - Filters Update
 
 10 new filters is here! Many small features and changes!
 
-**[build #2161] - 21 Jul 2022**
-- [NEW!] 10 new image filters
-- Updated filter preview images
-- Stability improvements after the last release: fixed about 8 minor (and not very) bugs
-- Major update of app UI library (WinUI)
-- Updated splash-screen logo
+**\[build #2161] - 21 Jul 2022**
 
-**[build #2164] - 7 Aug 2022**
-- [NEW!] When copying the file path, an icon with a check mark now appears
-- Fixed zooming image on touch screen with double tap
-- Since Patron is no longer available in my country, it was replaced on the donation page with another service - Boosty
-- Updated system libraries
-- Internal changes
+* \[NEW!] 10 new image filters
+* Updated filter preview images
+* Stability improvements after the last release: fixed about 8 minor (and not very) bugs
+* Major update of app UI library (WinUI)
+* Updated splash-screen logo
 
-**[build #2166] - 10 Aug 2022**
-- [NEW!] Click or tap on picture to hide/show bottom panel
-- [NEW!] Scroll through the pictures with the arrows from the keyboard! And also: "UP" - return to the gallery, "DOWN" - show/hide bottom panel
-- Internal changes
+**\[build #2164] - 7 Aug 2022**
 
-**[build #2168] - 12 Aug 2022**
-- [NEW!] Full-screen mode in picture page
-- Setting and Drawing buttons swapped
-- Internal changes
+* \[NEW!] When copying the file path, an icon with a check mark now appears
+* Fixed zooming image on touch screen with double tap
+* Since Patron is no longer available in my country, it was replaced on the donation page with another service - Boosty
+* Updated system libraries
+* Internal changes
 
-**[build #2171] - 21 Aug 2022**
-- [NEW!] Whats New page button added to bottom of Gallery page
-- Redesigned Whats New page
-- Redesigned Welcome page (first app launch) 
-- Some UI changes
-- Big internal changes
+**\[build #2166] - 10 Aug 2022**
 
-**[build #2175] - 22 Aug 2022**
-- Internal changes
-- Some images output optimizations
-- Some gallery loading optimizations
-- Fullscreen mode button and the File Info button have swapped places
-- Fixed an image scrolling bug when deleting a file
+* \[NEW!] Click or tap on picture to hide/show bottom panel
+* \[NEW!] Scroll through the pictures with the arrows from the keyboard! And also: "UP" - return to the gallery, "DOWN" - show/hide bottom panel
+* Internal changes
 
-**[build #2176] - 24 Aug 2022**
-- Fixed a crash when opening an image
+**\[build #2168] - 12 Aug 2022**
 
-**[build #2177] - 26 Aug 2022**
-- Fixed UI bugs in Filters page
-- Fixed unstable pictures carousel appearing
-- Fixed bug with added folders in Settings page
+* \[NEW!] Full-screen mode in picture page
+* Setting and Drawing buttons swapped
+* Internal changes
 
-**[build #2178] - 1 Sep 2022**
-- Internal changes
-- System libraries updates
-- Redesigned image editing page
+**\[build #2171] - 21 Aug 2022**
 
-**[build #2179] - 11 Sep 2022**
-- Bugfixes
-- System libraries updated
+* \[NEW!] Whats New page button added to bottom of Gallery page
+* Redesigned Whats New page
+* Redesigned Welcome page (first app launch)
+* Some UI changes
+* Big internal changes
 
-**[build #2180] - 18 Sep 2022**
-- Fixed some errors
-- Added a tooltip to close the slideshow
+**\[build #2175] - 22 Aug 2022**
+
+* Internal changes
+* Some images output optimizations
+* Some gallery loading optimizations
+* Fullscreen mode button and the File Info button have swapped places
+* Fixed an image scrolling bug when deleting a file
+
+**\[build #2176] - 24 Aug 2022**
+
+* Fixed a crash when opening an image
+
+**\[build #2177] - 26 Aug 2022**
+
+* Fixed UI bugs in Filters page
+* Fixed unstable pictures carousel appearing
+* Fixed bug with added folders in Settings page
+
+**\[build #2178] - 1 Sep 2022**
+
+* Internal changes
+* System libraries updates
+* Redesigned image editing page
+
+**\[build #2179] - 11 Sep 2022**
+
+* Bugfixes
+* System libraries updated
+
+**\[build #2180] - 18 Sep 2022**
+
+* Fixed some errors
+* Added a tooltip to close the slideshow
 
 ## Version 2207 - Gallery Update
 
-Another big update is here! 
+Another big update is here!
 Big gallery improvements, drawing feature, slide-show and some more!
 
-**[build #2151] - 7 Jul 2022**
-- [NEW!] Tabs with separate Pictures Library folders
-- [NEW!] Open folder with images from disk
-- [NEW!] SLide-show (beta)
-- [NEW!] Drawing feature
-- [NEW!] Images carousel in picture page (move pointer on top of picture page)
-- [NEW!] Added animation when scrolling through images
-- System libraries updates
-- Code refactoring
-- File Info screen corrections
-- New image on Welcome screen
-- Link to the installation of the SimpleNotepad! application has been removed from the Settings
-- Tab with the third-party software used has been removed from the Settings
-- Changed folder icons in Settings for Windows 11 style
-- Minor changes to the appearance of the gallery
-- Added animation in WhatsNew screen
-- Minor UI corrections in WhatsNew screen
-- All changes from the hotfixes of version #2206
+**\[build #2151] - 7 Jul 2022**
+
+* \[NEW!] Tabs with separate Pictures Library folders
+* \[NEW!] Open folder with images from disk
+* \[NEW!] SLide-show (beta)
+* \[NEW!] Drawing feature
+* \[NEW!] Images carousel in picture page (move pointer on top of picture page)
+* \[NEW!] Added animation when scrolling through images
+* System libraries updates
+* Code refactoring
+* File Info screen corrections
+* New image on Welcome screen
+* Link to the installation of the SimpleNotepad! application has been removed from the Settings
+* Tab with the third-party software used has been removed from the Settings
+* Changed folder icons in Settings for Windows 11 style
+* Minor changes to the appearance of the gallery
+* Added animation in WhatsNew screen
+* Minor UI corrections in WhatsNew screen
+* All changes from the hotfixes of version #2206
 
 ## Version 2206 - Summer 2022 Update
 
 Image compression feature is here!
 
-**[build #1996] - 05 Jun 2022**
-- [NEW!] Image compression
-- [NEW!] New welcome screen when the app is first launched
-- Redesigned file deletion
-- Redesigned saving file changes
-- Updated WinUI Library version to v2.8
-- System libraries updated
-- Bugfixes
+**\[build #1996] - 05 Jun 2022**
 
-**[build #2000] - 07 Jun 2022**
-- System libraries updated
-- App size reduced
+* \[NEW!] Image compression
+* \[NEW!] New welcome screen when the app is first launched
+* Redesigned file deletion
+* Redesigned saving file changes
+* Updated WinUI Library version to v2.8
+* System libraries updated
+* Bugfixes
 
-**[build #2004] - 11 Jun 2022**
-- Fixed image deletion bug
+**\[build #2000] - 07 Jun 2022**
 
-**[build #2016] - 16 Jun 2022**
-- Fixed filters applying to png images with transparency
-- UWP version updated
+* System libraries updated
+* App size reduced
 
-**[build #2020] - 19 Jun 2022**
-- Fixed file info output for long strings
+**\[build #2004] - 11 Jun 2022**
 
-**[build #2031] - 25 Jun 2022**
-- Fixed some Print image bugs
+* Fixed image deletion bug
 
-**[build #2034] - 27 Jun 2022**
-- Fixed bug when images with file format in capital letters were not displayed in gallery
+**\[build #2016] - 16 Jun 2022**
+
+* Fixed filters applying to png images with transparency
+* UWP version updated
+
+**\[build #2020] - 19 Jun 2022**
+
+* Fixed file info output for long strings
+
+**\[build #2031] - 25 Jun 2022**
+
+* Fixed some Print image bugs
+
+**\[build #2034] - 27 Jun 2022**
+
+* Fixed bug when images with file format in capital letters were not displayed in gallery
 
 ## Version 2204 - Usability Update
 
 Multi-window and usability improvements!
 
-**[build #1907] - 03 Apr 2022**
-- [NEW!] Multi-window
-- [NEW!] New aspect ratio options on the crop page
-- Save Original and Save Copy buttons are separated in filters page to improve convenience
-- Save Original and Save Copy buttons are separated in crop page to improve convenience
-- Localization on tooltips has been fixed
-- Added animation upon successful completion of a task, such as setting wallpaper or saving a filter
-- Added animation when deleting a file
-- Added animation when switching tabs in settings and filters
-- Scrolling tabs in settings and filters is now possible by swipe
-- Fixed: The gallery is now automatically updated when cropping, editing, deleting or moving an image
-- Fixed: the arrows for flipping the image now do not appear when flipping is impossible
-- System libraries updated
+**\[build #1907] - 03 Apr 2022**
+
+* \[NEW!] Multi-window
+* \[NEW!] New aspect ratio options on the crop page
+* Save Original and Save Copy buttons are separated in filters page to improve convenience
+* Save Original and Save Copy buttons are separated in crop page to improve convenience
+* Localization on tooltips has been fixed
+* Added animation upon successful completion of a task, such as setting wallpaper or saving a filter
+* Added animation when deleting a file
+* Added animation when switching tabs in settings and filters
+* Scrolling tabs in settings and filters is now possible by swipe
+* Fixed: The gallery is now automatically updated when cropping, editing, deleting or moving an image
+* Fixed: the arrows for flipping the image now do not appear when flipping is impossible
+* System libraries updated
 
 ## Version 2202 - Editor Update
 
 Big update is here!
 The update includes a completely new image editor with new filters
-and improved performance by about 500%! 
+and improved performance by about 500%!
 Also, in addition to the new editor, the function of moving the image
-to the specified folder has been added. 
+to the specified folder has been added.
 Thank you for staying with us!
 
-**[build #1821] - 10 Feb 2022**
-- [NEW!] New Image Editor with new awesome filters and adjustments
-- [NEW!] "Move to.." image to selected folder
-- Redesigned the logic of loading the gallery
-- Redesigned the appearance of the image cropping screen
-- UI correction in Gallery Page
-- To improve the usability, Print button and File Info button are swapped
-- Reduced the size of the application occupied on the device
-- Reduced RAM consumption when scrolling through images
-- New graphics library - Win2D
-- Bugfixes
-- System libraries updates
-- Removed: Some system libraries
-- Removed: Windows 10 Version 1903 and Version 1909 support
+**\[build #1821] - 10 Feb 2022**
 
-**[build #1822] - 11 Feb 2022**
-- Fixed: app crashes when opening some images
-- Fixed: english localization issues
+* \[NEW!] New Image Editor with new awesome filters and adjustments
+* \[NEW!] "Move to.." image to selected folder
+* Redesigned the logic of loading the gallery
+* Redesigned the appearance of the image cropping screen
+* UI correction in Gallery Page
+* To improve the usability, Print button and File Info button are swapped
+* Reduced the size of the application occupied on the device
+* Reduced RAM consumption when scrolling through images
+* New graphics library - Win2D
+* Bugfixes
+* System libraries updates
+* Removed: Some system libraries
+* Removed: Windows 10 Version 1903 and Version 1909 support
+
+**\[build #1822] - 11 Feb 2022**
+
+* Fixed: app crashes when opening some images
+* Fixed: english localization issues
 
 ## Version 2112 - New Year 2022 Update
 
 Small fixes for the New Year! Thank you for using my app this year! Stay tuned!)
 
-**[build #1730] - 22 Dec 2021**
-- App crash fixes
-- Bugfixes
-- System libraries updates
-- Small code optimizations
+**\[build #1730] - 22 Dec 2021**
 
-**[build #1734] - 01 Jan 2022**
-- Fixed: scrolling through images
+* App crash fixes
+* Bugfixes
+* System libraries updates
+* Small code optimizations
+
+**\[build #1734] - 01 Jan 2022**
+
+* Fixed: scrolling through images
 
 ## Version 2111 - Systems Update
 
 Major changes "under the hood"
 
-**[build #1700] - 30 Nov 2021**
-- [NEW!] New supported files format: .jfif
-- [NEW!] Copy image path from File Info window
-- Increased gallery loading speed
-- Many internal changes (some new bugs are possible, which I will try to fix quickly)
-- Logo changed (yes, again)
-- UWP version updated
-- Localization fixes
+**\[build #1700] - 30 Nov 2021**
+
+* \[NEW!] New supported files format: .jfif
+* \[NEW!] Copy image path from File Info window
+* Increased gallery loading speed
+* Many internal changes (some new bugs are possible, which I will try to fix quickly)
+* Logo changed (yes, again)
+* UWP version updated
+* Localization fixes
 
 ## Version 2110 - Fall 2021 Update
 
 Edit images! New app design!
 
-**[build #1000] - 9 Oct 2021**
-- [NEW!] Apply filters to the image (beta)
-- [NEW!] Apply Color Matrix to the image
-- [NEW!] Reflect images
-- [NEW!] New Settings page
-- [NEW!] Windows light-theme support (finally!!)
-- [NEW!] New right-click context menu on Image page
-- [NEW!] New What's New screen that will be shown with each new major update
-- New app updating screen
-- New animations in the app to make its use smoother
-- Some gallery output optimizations
-- A separate Editor page has been deleted
-- New app default font - Segoe UI Variable
-- Image cropping is now available in the menu called by the pen button on the image page
-- Some changes have been made to improve the smoothness of the interface
-- Added a pop-up window with key update changes
-- Changed the message dialog about the availability of an update
-- WinUI updated to v2.7
-- "Add folder" button has been moved to the bottom of the page
-- "Add folder" button now leads to a new settings page
-- "About app" button now leads to a new settings page
-- Image rotation button is now located in the image editing menu (the button with a pen)
-- "About app" window has been removed
-- "Add folder to gallery" window has been removed
-- Added donation button on Gallery page
-- Gallery gradient animation has been removed
-- System libraries updated
-- Fixed image output when file is not supported
-- Fixed translation of File Info title
-- Fixed output of image size in FileInfo
-- Fixed output of image camera model in FileInfo
-- Fixed output of image title in FileInfo
-- Fixed output of image folder in FileInfo
-- Other small fixes
+**\[build #1000] - 9 Oct 2021**
 
-**[build #1005] - 22 Oct 2021**
-- Fixed new fonts on devices with Windows 10
-- Swapped places Settings button and Donation button in Gallery Page
+* \[NEW!] Apply filters to the image (beta)
+* \[NEW!] Apply Color Matrix to the image
+* \[NEW!] Reflect images
+* \[NEW!] New Settings page
+* \[NEW!] Windows light-theme support (finally!!)
+* \[NEW!] New right-click context menu on Image page
+* \[NEW!] New What's New screen that will be shown with each new major update
+* New app updating screen
+* New animations in the app to make its use smoother
+* Some gallery output optimizations
+* A separate Editor page has been deleted
+* New app default font - Segoe UI Variable
+* Image cropping is now available in the menu called by the pen button on the image page
+* Some changes have been made to improve the smoothness of the interface
+* Added a pop-up window with key update changes
+* Changed the message dialog about the availability of an update
+* WinUI updated to v2.7
+* "Add folder" button has been moved to the bottom of the page
+* "Add folder" button now leads to a new settings page
+* "About app" button now leads to a new settings page
+* Image rotation button is now located in the image editing menu (the button with a pen)
+* "About app" window has been removed
+* "Add folder to gallery" window has been removed
+* Added donation button on Gallery page
+* Gallery gradient animation has been removed
+* System libraries updated
+* Fixed image output when file is not supported
+* Fixed translation of File Info title
+* Fixed output of image size in FileInfo
+* Fixed output of image camera model in FileInfo
+* Fixed output of image title in FileInfo
+* Fixed output of image folder in FileInfo
+* Other small fixes
 
-**[build #1009] - 25 Oct 2021**
-- Fixed app crash when folder deleted from Picture Library
-- Fixed Error content dialog appearance
+**\[build #1005] - 22 Oct 2021**
+
+* Fixed new fonts on devices with Windows 10
+* Swapped places Settings button and Donation button in Gallery Page
+
+**\[build #1009] - 25 Oct 2021**
+
+* Fixed app crash when folder deleted from Picture Library
+* Fixed Error content dialog appearance
 
 ## Version 2107 - July 2021 Update
 
-**[build #740] - 18 Sep 2021**
-- Fixed app crash when the Pictures Library is empty
-- Fixed an empty window when opening an unsupported file
+**\[build #740] - 18 Sep 2021**
 
-**[build #730] - 6 Jul 2021**
-- [NEW!] Italian localization
-- Bugfixes
-- System libraries updated
+* Fixed app crash when the Pictures Library is empty
+* Fixed an empty window when opening an unsupported file
 
-**[build #731] - 19 Aug 2021**
-- TIF files bugfix
-- System libraries updates
+**\[build #730] - 6 Jul 2021**
 
-**[build #732] - 23 Aug 2021**
-- Image output fix
+* \[NEW!] Italian localization
+* Bugfixes
+* System libraries updated
 
-**[build #733] - 8 Sep 2021**
-- ICO files support
-- Bugfixes
+**\[build #731] - 19 Aug 2021**
+
+* TIF files bugfix
+* System libraries updates
+
+**\[build #732] - 23 Aug 2021**
+
+* Image output fix
+
+**\[build #733] - 8 Sep 2021**
+
+* ICO files support
+* Bugfixes
 
 ## Version 2105 - Anniversary Update
 
-Anniversary update here! 
+Anniversary update here!
 1 year!!!
 Thanks for using it! Stay tuned!)
 
-**[build #712] - 31 May 2021**
-- [NEW!] Cropping images!
-- [NEW!] Copy image
-- [NEW!] Copy image as file
-- [NEW!] Pinch-zoom for touch-devices
-- [NEW!] Image Share feature!
-- [NEW!] Print Image feature!
-- [NEW!] Ctrl+Wheel zoom
-- System changes
-- Removed app splashscreen on powerful PC
-- System libraries updated
-- Redesigned gallery page
-- Redesigned file info dialog
-- Removed gallery wallpaper
-- Removed blured background on picture page
-- Added new animations
-- New gradient backgrounds
-- Increased app perfomance
-- New app icon
+**\[build #712] - 31 May 2021**
 
-**[build #714] - 7 Jun 2021**
-- Image showing fixed
-- Double-tap zoom reduced
-- Animations edits
-- Bugfixes
+* \[NEW!] Cropping images!
+* \[NEW!] Copy image
+* \[NEW!] Copy image as file
+* \[NEW!] Pinch-zoom for touch-devices
+* \[NEW!] Image Share feature!
+* \[NEW!] Print Image feature!
+* \[NEW!] Ctrl+Wheel zoom
+* System changes
+* Removed app splashscreen on powerful PC
+* System libraries updated
+* Redesigned gallery page
+* Redesigned file info dialog
+* Removed gallery wallpaper
+* Removed blured background on picture page
+* Added new animations
+* New gradient backgrounds
+* Increased app perfomance
+* New app icon
+
+**\[build #714] - 7 Jun 2021**
+
+* Image showing fixed
+* Double-tap zoom reduced
+* Animations edits
+* Bugfixes
 
 ## Version 2012 - New Year 2021 Update
 
-**[build #277] - 28 Dec 2020**
-- System changes
-- Fixed rendering of high-resolution images
-(experimental)
-- New default gallery wallpaper
+**\[build #277] - 28 Dec 2020**
+
+* System changes
+* Fixed rendering of high-resolution images
+  (experimental)
+* New default gallery wallpaper
 
 ## Version 2011 - November 2020 Update
 
-**[build #266] - 30 Nov 2020**
-- [NEW!] Incremental gallery loading
-- New animations on image opened
-- New default gallery image backgroung
-- System libraries updates
-- Internal changes
-- Increased speed and improved performance 
-- Improved rendering when scrolling through the gallery 
-- Bugfixes
+**\[build #266] - 30 Nov 2020**
+
+* \[NEW!] Incremental gallery loading
+* New animations on image opened
+* New default gallery image backgroung
+* System libraries updates
+* Internal changes
+* Increased speed and improved performance
+* Improved rendering when scrolling through the gallery
+* Bugfixes
 
 ## Version 2007 - July 2020 Update
 
-**[build #145] - 8 Jul 2020**
-- [NEW!] Image rotation 
-- [NEW!] File deletion 
-- [NEW!] Auto-refresh the gallery when you change the file system 
-- [NEW!] Displaying the parent folder in the file Information window" 
-- Added animations to various parts of the app 
-- New animation when launching the app 
-- Added a banner informing about the update of the gallery 
-- Redesigned the lower menu on the image viewing page 
-- Redesigned the "About" window" 
-- Added a changelog 
-- Redesigned the function of adding a folder to the gallery 
-- Increased speed and improved performance 
-- Improved rendering when scrolling through the gallery 
-- Changes to the file Information window-Updated the default gallery background 
-- Added the app's French language 
-- Added Spanish app language 
-- Fixed various bugs
+**\[build #145] - 8 Jul 2020**
+
+* \[NEW!] Image rotation
+* \[NEW!] File deletion
+* \[NEW!] Auto-refresh the gallery when you change the file system
+* \[NEW!] Displaying the parent folder in the file Information window"
+* Added animations to various parts of the app
+* New animation when launching the app
+* Added a banner informing about the update of the gallery
+* Redesigned the lower menu on the image viewing page
+* Redesigned the "About" window"
+* Added a changelog
+* Redesigned the function of adding a folder to the gallery
+* Increased speed and improved performance
+* Improved rendering when scrolling through the gallery
+* Changes to the file Information window-Updated the default gallery background
+* Added the app's French language
+* Added Spanish app language
+* Fixed various bugs
 
 ## Version 2006 - June 2020 Update
 
-**[build #101] - 1 Jun 2020**
-- [NEW!] add image folders to your gallery!
-- [NEW!] added support for .tiff files
-- Design correction
-- Added gallery animation when resizing the window
-- Added gallery animation when launching the app
-- Added a window offering to send logs in case of errors
-- New default gallery wallpaper
-- Improved adaptability when changing the window size
-- App target version changed to Windows 10 Version 2004
+**\[build #101] - 1 Jun 2020**
 
-**[build #102] - 3 Jun 2020**
-- Bugfixes
+* \[NEW!] add image folders to your gallery!
+* \[NEW!] added support for .tiff files
+* Design correction
+* Added gallery animation when resizing the window
+* Added gallery animation when launching the app
+* Added a window offering to send logs in case of errors
+* New default gallery wallpaper
+* Improved adaptability when changing the window size
+* App target version changed to Windows 10 Version 2004
 
-**[build #104] - 7 Jun 2020**
-- Fix an issue with adding folder to the gallery
-- Adding a banner about the availability of updates
+**\[build #102] - 3 Jun 2020**
+
+* Bugfixes
+
+**\[build #104] - 7 Jun 2020**
+
+* Fix an issue with adding folder to the gallery
+* Adding a banner about the availability of updates
 
 ## Version 2005 - Original Release
 
-**[build #42] - 13 May 2020**
-- First release in Microsoft Store
+**\[build #42] - 13 May 2020**
 
-**[build #52] - 16 May 2020**
-- Bugfixes
+* First release in Microsoft Store
+
+**\[build #52] - 16 May 2020**
+
+* Bugfixes
