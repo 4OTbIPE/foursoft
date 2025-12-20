@@ -6,8 +6,6 @@ Released: October 26, 2025
 
 **\[v.2511.1.0] - November 15, 2025**
 
-----------------------------------------------------------------
-
 \- ⚙️ Updated .NET Runtime to 9.0.11
 
 \- ⚙️ Updated third-party packages
@@ -15,8 +13,6 @@ Released: October 26, 2025
 
 
 **\[v.2511.0.0] - October 26, 2025**
-
-----------------------------------------------------------------
 
 \- 🔥 \[NEW!] You can now view all the artists in your music collection in the gallery
 
@@ -78,8 +74,6 @@ Released: August 16, 2025
 
 **\[v.2508.5.0] - October 15, 2025**
 
-----------------------------------------------------------------
-
 \- ⚙️ Updated .NET Runtime to 9.0.10
 
 \- ⚙️ Updated third-party packages
@@ -88,15 +82,11 @@ Released: August 16, 2025
 
 **\[v.2508.4.3] - October 12, 2025**
 
-----------------------------------------------------------------
-
 \- ✅ \[FIXED] Fixed not working file search
 
 
 
 **\[v.2508.4.2] - October 11, 2025**
-
-----------------------------------------------------------------
 
 \- ✅ \[FIXED] The display of multiple artists for a track has been fixed. They are now separated by a comma and space
 
@@ -106,8 +96,6 @@ Released: August 16, 2025
 
 **\[v.2508.4.1] - October 10, 2025**
 
-----------------------------------------------------------------
-
 \- ✅ \[FIXED] Fixed a bug where the audio file would not play
 
 \- ⚠️ \[DISABLED] The track switching feature in the current playlist's drop-down list has been temporarily disabled. It will be re-enabled in the next few updates, once a critical bug is fixed
@@ -115,8 +103,6 @@ Released: August 16, 2025
 
 
 **\[v.2508.4.0] - October 9, 2025**
-
-----------------------------------------------------------------
 
 \- 🔥 \[NEW!] Added a context menu to the image viewing page
 
@@ -130,8 +116,6 @@ Released: August 16, 2025
 
 **\[v.2508.3.0] - September 28, 2025**
 
-----------------------------------------------------------------
-
 \- ✅ \[FIXED] Name of the artist of the current track is now also displayed in the mini player
 
 \- ✅ \[FIXED] If the dialog screen is open and you switch to another page, the dialog screen now closes correctly
@@ -142,8 +126,6 @@ Released: August 16, 2025
 
 **\[v.2508.2.2] - September 22, 2025**
 
-----------------------------------------------------------------
-
 \- 🎨 Minor UI changes to the music page
 
 \- ⚙️ Updated third-party packages
@@ -151,8 +133,6 @@ Released: August 16, 2025
 
 
 **\[v.2508.2.1] - September 14, 2025**
-
-----------------------------------------------------------------
 
 \- ✅ Fixed some issues with subtitles in video playback
 
@@ -164,15 +144,11 @@ Released: August 16, 2025
 
 **\[v.2508.2.0] - September 9, 2025**
 
-----------------------------------------------------------------
-
 \- ⚙️ Updated .NET Runtime to 9.0.9
 
 
 
 **\[v.2508.1.3] - September 6, 2025**
-
-----------------------------------------------------------------
 
 \- 🔥 \[NEW!] Link to download the Beta version of the application has been added to the Settings page, where early access to new features and improvements is available!
 
@@ -183,8 +159,6 @@ Released: August 16, 2025
 
 
 **\[v.2508.1.2] - September 1, 2025**
-
-----------------------------------------------------------------
 
 \- 🔥 \[NEW!] The music playback page now displays the year of the album's release
 
@@ -202,8 +176,6 @@ Released: August 16, 2025
 
 **\[v.2508.1.1] - August 28, 2025**
 
-----------------------------------------------------------------
-
 \- ✅ \[FIXED] The video title in the video player may have been empty
 
 \- ✅ \[FIXED] When saving a copy of a file in an image editor, Success message was displayed in any case
@@ -213,8 +185,6 @@ Released: August 16, 2025
 
 
 **\[v.2508.1.0] - August 26, 2025**
-
-----------------------------------------------------------------
 
 \- ✅ \[FIXED] An error occurred while saving a cropped image.
 
@@ -229,8 +199,6 @@ Released: August 16, 2025
 
 
 **\[v.2508.0.0] - August 16, 2025**
-
-----------------------------------------------------------------
 
 \- 🔥 \[NEW!] Video player engine based on FFmpeg (beta)! Open video files of almost all formats without using separate codecs! Still in beta stage. If various errors occur - in \[Settings->Personalization] you can return to using the standard Windows video player.
 
@@ -268,15 +236,11 @@ Released: June 26, 2025
 
 **\[v.2507.12.0] - August 8, 2025**
 
-----------------------------------------------------------------
-
 \- ⚙️ Updated .NET Runtime to 9.0.8
 
 
 
 **\[v.2507.11.0] - July 29, 2025**
-
-----------------------------------------------------------------
 
 \- ✅ \[FIXED] Fixed rare application crashes when loading folders in the gallery
 
@@ -284,15 +248,11 @@ Released: June 26, 2025
 
 **\[v.2507.10.0] - July 19, 2025**
 
-----------------------------------------------------------------
-
 \- ✅ \[FIXED] Fixed error localization when image cannot be opened
 
 
 
 **\[v.2507.9.0] - July 10, 2025**
-
-----------------------------------------------------------------
 
 \- ⚙️ Updated .NET Runtime to 9.0.7
 
@@ -302,8 +262,6 @@ Released: June 26, 2025
 
 **\[v.2507.8.0] - July 4, 2025**
 
-----------------------------------------------------------------
-
 \- ⚠️ Changed email address for contacting the developer
 
 \- ⚙️ Added localization of tooltips in the video player
@@ -311,8 +269,6 @@ Released: June 26, 2025
 
 
 **\[v.2507.7.0] - July 2, 2025**
-
-----------------------------------------------------------------
 
 \- ✅ \[FIXED] Sometimes the audio track duration was displayed as 00:00 in the gallery
 
@@ -322,8 +278,6 @@ Released: June 26, 2025
 
 **\[v.2507.6.0] - June 30, 2025**
 
-----------------------------------------------------------------
-
 \- 🔥 \[NEW!] Support for .mov video files
 
 \- ✅ \[FIXED] Fixed some bugs in video playback
@@ -331,8 +285,6 @@ Released: June 26, 2025
 
 
 **\[v.2507.5.0] - June 29, 2025**
-
-----------------------------------------------------------------
 
 \- 🔥 \[NEW!] Click on the video player area to play/pause the video
 
@@ -348,8 +300,6 @@ Released: June 26, 2025
 
 **\[v.2507.4.0] - June 28, 2025**
 
-----------------------------------------------------------------
-
 \- ✅ \[FIXED] When changing the Windows theme, the color of the Minimize/Maximize/Close buttons did not change
 
 \- ✅ \[FIXED] Now when opening an unsupported or corrupted image file, an error dialog does not appear
@@ -362,8 +312,6 @@ Released: June 26, 2025
 
 **\[v.2507.3.0] - June 27, 2025**
 
-----------------------------------------------------------------
-
 \- ✅ \[FIXED] Сopied file could not be pasted after closing the application
 
 \- ✅ \[FIXED] No search was performed among videos
@@ -372,23 +320,17 @@ Released: June 26, 2025
 
 **\[v.2507.2.0] - June 27, 2025**
 
-----------------------------------------------------------------
-
 \- ✅ \[FIXED] Fixed application crash when trying to save audio track cover
 
 
 
 **\[v.2507.1.0] - June 27, 2025**
 
-----------------------------------------------------------------
-
 \- Some app loading fix
 
 
 
 **\[v.2507.0.0] - June 26, 2025**
-
-----------------------------------------------------------------
 
 \- 🔥 \[NEW!] New videoplayer design
 
@@ -464,6 +406,8 @@ Released: June 2, 2025
 * Various minor fixes and improvements
 * Updated third-party packages
 * Updated home-page background image (from Unsplash by Elijah Pilchard)
+
+
 
 ## Version 2505
 
