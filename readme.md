@@ -1,4 +1,5 @@
-<img src="https://github.com/4OTbIPE/foursoft/blob/release/logo.png" width=500 />
+<img width="500" alt="test" src="https://github.com/user-attachments/assets/2a481c7a-e585-442e-ad5e-c1db286da3e0" />
+
 
 # FlyGallery
 ### Modern media gallery application for Windows
