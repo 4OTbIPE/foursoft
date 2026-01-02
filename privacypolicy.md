@@ -1,8 +1,10 @@
 # **FlyGallery! App - Privacy Policy**
 
 **App Name**: FlyGallery! App
-**Version**: starting with version 2503.0.0
-**Effective Date**: [1 Mar 2025]
+
+**Version**: starting with version 6.0.0
+
+**Effective Date**: [1 January 2026]
 
 ## **1. What Data Does the App Collect?**
 
@@ -61,5 +63,5 @@ If this policy is updated, the new version will be published on the Microsoft St
 
 For questions, contact us at:
 
--   **Email**: foursoftapps@outlook.com
+-   **Email**: flygallery@gmail.com
     
